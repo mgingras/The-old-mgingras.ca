@@ -1,4 +1,4 @@
-magingras.github.io
+mgingras.github.io
 ===================
 
 My personal website
