@@ -1,2 +1,15 @@
 name: Your New Jekyll Site
+safe: true
 pygments: true
+lsi: false
+permalink: /:categories/:title
+url: http://magingras.com
+markdown: maruku
+port: 4000
+future: false
+exclude:
+- README.md
+- CNAME
+- params.json
+- Gemfile
+- Gemfile.lock
