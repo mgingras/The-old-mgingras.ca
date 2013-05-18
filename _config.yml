@@ -1,7 +1,5 @@
-name: Your New Jekyll Site
+name: Martin Gingras
 safe: true
-pygments: true
-lsi: false
 permalink: /:categories/:title
 url: http://magingras.com
 markdown: maruku
