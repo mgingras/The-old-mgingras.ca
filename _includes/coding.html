@@ -1,1 +1,5 @@
 <h1><i class="icon-code"></i>&nbsp;&nbsp;Coding Projects</h1>
+{% for project in site.categories.projects %}
+<h3><i class="icon-terminal"></i> open<a href="{{ project.url }}"> {{ project.title }}/</a></h3>
+{% endfor %}
+<img align="left" style="width:100%;" src="http://1.bp.blogspot.com/_G-kAIEQS-QM/SuZtx4EFgXI/AAAAAAAAAlo/jZqfDyuoRBA/s400/UnderConstructionBannerDiagonal.gif"></img>

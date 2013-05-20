@@ -1,19 +1,19 @@
 <h1 class="title">
   <a href="/">
     <img align="left" src="http://m.c.lnkd.licdn.com/media/p/1/000/18a/2cc/374c4e8.jpg" style="height:60px; width:60px; margin-right:10px; -webkit-border-radius: 8px 8px 8px 8px;-moz-border-radius: 8px 8px 8px 8px;border-radius: 8px 8px 8px 8px;"></img>{{ site.name }}
-</a>
+  </a>
 </h1>
-  <p>Reach me via:&nbsp;
-    <a href="mailto:martin.p.gingras@gmail.com?Subject=Your Website" title="Email Me!"><i class="icon-envelope-alt icon-large"></i></a>
-    <a href="http://github.com/mgingras/"><i class="icon-github icon-large"></i></a>
-    <a href="http://www.linkedin.com/in/martinpgingras"><i class="icon-linkedin-sign icon-large"></i></a>
-    <!-- <a href="https://www.facebook.com/Martin.P.Gingras"> --><i class="icon-facebook-sign icon-large"></i><!-- </a> -->
-    <a href="https://twitter.com/martin_gingras"><i class="icon-twitter-sign icon-large"></i></a>
-  </p>
-  <h2>About me</h2>
-  <div class=highlight>
-    <p><i class="icon-terminal"></i> cd<a href="/resume"> resume/</a></p>
-  </div>
-  <h2>Coding Projects</h2>
-  <p><i class="icon-terminal"></i> cd<a href="/coding"> codingProjects/</a></p>
-  <!-- <p>$ ls -la</p> -->
+<p>Reach me via:&nbsp;
+  <a href="mailto:martin.p.gingras@gmail.com?Subject=Your Website" title="Email Me!"><i class="icon-envelope-alt icon-large"></i></a>
+  <a href="http://github.com/mgingras/"><i class="icon-github icon-large"></i></a>
+  <a href="http://www.linkedin.com/in/martinpgingras"><i class="icon-linkedin-sign icon-large"></i></a>
+  <!-- <a href="https://www.facebook.com/Martin.P.Gingras"> --><i class="icon-facebook-sign icon-large"></i><!-- </a> -->
+  <a href="https://twitter.com/martin_gingras"><i class="icon-twitter-sign icon-large"></i></a>
+</p>
+<h2>About me</h2>
+<p><i class="icon-terminal"></i> open<a href="/resume"> resume/</a></p>
+<h2>Coding Projects</h2>
+<p><i class="icon-terminal"></i> cd<a href="/coding"> codingProjects/</a></p>
+{% for project in site.categories.projects %}
+<p><i class="icon-terminal"></i> open<a href="{{ project.url }}"> {{ project.title }}/</a></p>
+{% endfor %}
