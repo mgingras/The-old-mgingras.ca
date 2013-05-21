@@ -1,13 +1,13 @@
 ---
 layout: project
 title: Tortoise and Hare Race Simulation
-categories: projects
+categories: coding
 ---
 
 #theTortoiseAndTheHare
 ---
 
-A simulation of the age old tale - The Tortoise and the Hare - Programmed in C++
+A simulation of the age old tale - The Tortoise and the Hare - Programmed in C++coding
 
 ---
 
