@@ -21,3 +21,5 @@ Instructions:
 1. To compile this project, open a terminal in the cloned directory and type "```make```" 
 2. This will compile and link all required files code.  
 3. Once compiled and linked enter "```./race```" to execute the binary, after which follow the on-screen isntructions.
+
+See the [code](https://github.com/mgingras/theTortoiseAndTheHare)
