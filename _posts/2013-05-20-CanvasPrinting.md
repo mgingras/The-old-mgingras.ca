@@ -4,9 +4,6 @@ title: Canvas-Printing
 categories: coding
 ---
 
-Canvas-Printing
-===
-
 #####A Simple photo gallery/print ordering POC website
 
 ***
