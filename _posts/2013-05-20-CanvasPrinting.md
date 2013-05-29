@@ -17,4 +17,4 @@ It's purpose is to demostrate a simple photo gallery/canvas printing website wit
 - Modify price based on the dimensions of the order
 - Track past orders
 
-See the [code](https://github.com/mgingras/Canvas-Printing/) - Try the app [app](http://mgprinting.herokuapp.com/)
+See the [code](https://github.com/mgingras/Canvas-Printing/) - Try the [app](http://mgprinting.herokuapp.com/)
