@@ -17,4 +17,6 @@ It's purpose is to demostrate a simple photo gallery/canvas printing website wit
 - Modify price based on the dimensions of the order
 - Track past orders
 
+*Currently Migrating this code so that it works on CLEARDB MySQL and Heroku -> some of the original fucntions are not supported*   
+
 See the [code](https://github.com/mgingras/Canvas-Printing/) - Try the [app](http://mgprinting.herokuapp.com/)
