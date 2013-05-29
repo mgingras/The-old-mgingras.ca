@@ -17,4 +17,4 @@ Backend server written in node.js.
 ![Under Construction](http://t3.gstatic.com/images?q=tbn:ANd9GcQxVIewybJj0mbyVLfpoFPIXkAfcYCtQKhRqdFrYvKRRyKwxy5p "Under Construction")
 ###Under Construction
 
-<!-- See the [code](https://github.com/mgingras/synonymizer) - Try the app [app](http://synonymizer.herokuapp.com/) -->
+<!-- See the [code](https://github.com/mgingras/synonymizer) - Try the [app](http://synonymizer.herokuapp.com/) -->
