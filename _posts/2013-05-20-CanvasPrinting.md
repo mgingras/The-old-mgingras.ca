@@ -2,6 +2,7 @@
 layout: project
 title: Canvas-Printing
 categories: coding
+root: true
 ---
 
 #####A Simple photo gallery/print ordering POC website
