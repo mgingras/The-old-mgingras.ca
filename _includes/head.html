@@ -23,20 +23,20 @@
 <!-- older iPhone & iPad Splash Screen -->
 <!-- <link href="img/splash_iphone_2x.png" rel="apple-touch-startup-image" sizes="640x960" media="(device-height: 480px)"> -->
 
-<link rel="icon" type="image/ico" href="{{ site.url }}/img/favicon.ico">
+<link rel="icon" type="image/ico" href="{% if page.root %}/img/favicon.ico{% else %}../img/favicon.ico{% endif %}">
 
 <!-- syntax highlighting CSS -->
-<link rel="stylesheet" href="{{ site.url }}/css/syntax.css">
+<link rel="stylesheet" href="{% if page.root %}/css/syntax.css{% else %}../css/syntax.css{% endif %}">
 
 <!-- Font Awesome -->
-<link rel="stylesheet" href="{{site.url}}/css/font-awesome.css">
+<link rel="stylesheet" href="{% if page.root %}/css/font-awesome.css{% else %}../css/font-awesome.css{% endif %}">
 
 <!-- Custom CSS -->
-<link rel="stylesheet" href="{{ site.url }}/css/styles.css">
+<link rel="stylesheet" href="{% if page.root %}/css/styles.css{% else %}../css/styles.css{% endif %}">
 
 
 <!-- Script to keep iPhone webapp from opening links in safari -->
-<script src="{{ site.url }}/js/stay_standalone.js"></script>
+<script src="{% if page.root %}/js/stay_standalone.js{% else %}../js/stay_standalone.js{% endif %}"></script>
 
 
 <title>{{ page.title }}</title>
