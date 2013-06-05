@@ -19,4 +19,4 @@ It's purpose is to demostrate a simple photo gallery/canvas printing website wit
 
 *Currently Migrating this code so that it works on CLEARDB MySQL and Heroku -> some of the original fucntions are not supported*   
 
-See the [code](https://github.com/mgingras/Canvas-Printing/) - Try the [app](http://mgprinting.herokuapp.com/)
+See the [code](https://github.com/mgingras/Canvas-Printing/) - Check out the [site](http://mgprinting.herokuapp.com/)
