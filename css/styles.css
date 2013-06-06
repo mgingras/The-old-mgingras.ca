@@ -253,11 +253,11 @@ footer {
   .sidebar {
     padding:0;
     border: 0px;
-    background: #777;
+    background: #222;
   }
   .content {
     border: 0px;
-    background: #777;
+    background: #222;
   }
   
   .sidebar ul, .sidebar p.view {
