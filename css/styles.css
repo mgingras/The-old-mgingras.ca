@@ -223,6 +223,7 @@ footer {
   
   .sidebar {
     padding-right:320px;
+    border: 0px;
   }
   
   .content {
@@ -230,6 +231,7 @@ footer {
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
+    border:0px;
   }
   
   .sidebar a small {
@@ -250,6 +252,10 @@ footer {
   
   .sidebar {
     padding:0;
+    border: 0px;
+  }
+  .content {
+    border: 0px;
   }
   
   .sidebar ul, .sidebar p.view {
@@ -275,6 +281,6 @@ footer {
   body {
     padding:0.4in;
     font-size:12pt;
-    color:#777;
+    color:#555;
   }
 }
