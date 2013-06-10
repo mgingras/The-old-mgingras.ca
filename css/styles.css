@@ -14,7 +14,7 @@ body {
 }
 
 .sidebar {
-  width: 190px;
+  width: 200px;
   height: 90%;
   float: left;
   position: fixed;
@@ -29,7 +29,7 @@ body {
 }
 
 .content {
-  width: 670px;
+  width: 660px;
   float: right;
   padding-bottom: 50px;
   background-color: #111;
