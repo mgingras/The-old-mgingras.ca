@@ -47,3 +47,20 @@ as '@'. If at any point you land on a mine, the entire board is displayed, as we
 game terminates.
 
 See the [code](https://github.com/mgingras/stinky-game-command-line)
+
+The second iteration of development of this application I switched to the use of the Swing graphical library for
+Java and moved the game to a GUI.
+
+Here is a screenshot of a fresh game. Once you press start a timer is started and there is a bonus for finishing
+quickly.   
+
+<a href="http://www.flickr.com/photos/97299680@N08/9011402100/" title="stinkyNewGame by martingingras, on Flickr"><img src="http://farm4.staticflickr.com/3704/9011402100_835bd6e96f_z.jpg" width="599" height="600" alt="stinkyNewGame"></a>   
+
+This is a screenshot of a finished game. As you can see, once you found all of the un-mined spaces the game is
+ended and the board is revealed. You can chose to play again, and as long as you keep wining your score is
+aggregated:   
+
+<a href="http://www.flickr.com/photos/97299680@N08/9011402022/" title="stinkyWonGame by martingingras, on Flickr"><img src="http://farm8.staticflickr.com/7343/9011402022_d06fafba00_z.jpg" width="603" height="596" alt="stinkyWonGame"></a>   
+
+
+See the [code](https://github.com/mgingras/stinky-game-swing)
