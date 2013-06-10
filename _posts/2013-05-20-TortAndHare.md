@@ -8,7 +8,7 @@ categories: coding
 
 <p><strong>Built using:</strong>&nbsp;&nbsp;<span class="pict-prog-cplusplus icon-3x"></span></p>
 
-***
+
 
 This project is split out to follow the MVC principles and is wholly written in C++ with the view rendered using the Curses C++ {libraryexcerpt_separator}.
 <!-- abridge -->When this program is executed a simulation of a tortoise, represented by '```@```', and hare, represented by '```^```', race up your 

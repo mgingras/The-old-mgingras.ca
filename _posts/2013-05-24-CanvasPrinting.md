@@ -9,7 +9,7 @@ root: true
 
 <p><strong>Built using:</strong>&nbsp;&nbsp;<span class="pict-prog-php02 icon-2x"> </span>&nbsp;<span class="pict-dbs-mysql icon-3x"> </span>&nbsp;<span class="pict-prog-js02 icon-2x"> </span>&nbsp;<span class="pict-html5-01 icon-2x"> </span>&nbsp;<span class="pict-css3-01 icon-2x"> </span></p>
 
-***
+
 
 This is a basic mock up of a potential web commerce website written with HTML, CSS, and modest JS with a PHP backended comunicating with a MySQL databse.
 <!-- abridge -->

@@ -3,4 +3,5 @@
 {% for project in site.categories.coding %}
 <h3><i class="icon-terminal"></i> open<a href="{{ project.url }}"> {{ project.title }}/</a></h3>
 <p>{{ project.content | split: '<!-- abridge -->' | first }}</p>
+<hr>
 {% endfor %}
