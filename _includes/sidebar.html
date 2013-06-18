@@ -13,8 +13,10 @@
   <a href="https://twitter.com/martin_gingras"><i class="icon-twitter-sign icon-large"></i></a>
 </p>
 <h2>About me</h2>
-<p><i class="icon-terminal"></i> open<a href="/resume"> resume/</a></p>
-<h2><a href="/coding">Coding Projects</a></h2>
+<nav>
+  <p><i class="icon-terminal"></i> open<a href="/resume"> resume/</a></p>
+  <h2><a href="/coding">Coding Projects</a></h2>
+</nav>
 {% for project in site.categories.coding %}
 <p><i class="icon-terminal"></i> open<a href="{{ project.url }}"> {{ project.title }}/</a></p>
 {% endfor %}
