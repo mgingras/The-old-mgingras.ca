@@ -10,3 +10,4 @@ To-do:
   - Pretty them up *doneish*
 - Add mobile capability for Resume portion
 - Swipe navigation on mobile?
+- Add limits on sidebar display for projects, and a see all link so we can get rid of the anchor on the header.
