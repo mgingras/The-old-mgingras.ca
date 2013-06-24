@@ -6,7 +6,7 @@ http://www.magingras.com
 
 To-do:
 
-- Get projects up on site
-  - Pretty them up
+- Get projects up on site *done*
+  - Pretty them up *doneish*
 - Add mobile capability for Resume portion
 - Swipe navigation on mobile?
