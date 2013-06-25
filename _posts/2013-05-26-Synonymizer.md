@@ -24,11 +24,11 @@ Decided to use the merriam-webster dictionary since they have an open API that a
 
 Their [site](http://www.dictionaryapi.com/)   
 
-For example, passing a request of the form XML: http://www.dictionaryapi.com/api/v1/references/thesaurus/xml/recourse?key=[API KEY]
+For example, passing a request of the form: ```http://www.dictionaryapi.com/api/v1/references/thesaurus/xml/recourse?key=\[API KEY\]```
 
-Will return:
+Will return the following XML data:
 
-```xml
+{% highlight xml %}
 <entry_list version="1.0">
 <entry id="recourse">
 	<term>
@@ -51,7 +51,8 @@ Will return:
 	</sens>
 </entry>
 </entry_list>
-```
+{% endhighlight %}
+
 As you can see the desired information is wrapped in ```<syn>``` tags. 
 
 Progress....
