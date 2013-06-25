@@ -52,7 +52,7 @@ Will return:
 </entry>
 </entry_list>
 ```
-As you can see the desired information is wrapped in \<syn\> tags. 
+As you can see the desired information is wrapped in ```<syn>``` tags. 
 
 Progress....
 
