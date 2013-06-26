@@ -48,6 +48,20 @@ body {
   margin-right:20%;
 }
 
+.homeButton {
+  position:fixed;
+  top:-6px;
+  left:20px;
+  height:60px;
+  width:40px;
+  background-color:#39c;
+  text-color:white;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color:#33CC6A;
   margin:0 0 20px;
