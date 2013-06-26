@@ -1,20 +1,18 @@
-<!-- <div style="height;60px;width:200px;"> -->
-  <img alt="Martin Gingras" src="/img/martin_gingras.jpg" style="height:60px; width:60px; margin-right:10px; -webkit-border-radius: 8px 8px 8px 8px;-moz-border-radius: 8px 8px 8px 8px;border-radius: 8px 8px 8px 8px;float:left;">
+  <img alt="Martin Gingras" src="http://m.c.lnkd.licdn.com/media/p/1/000/18a/2cc/374c4e8.jpg" style="height:60px; width:60px; margin-right:10px; -webkit-border-radius: 8px 8px 8px 8px;-moz-border-radius: 8px 8px 8px 8px;border-radius: 8px 8px 8px 8px;float:left;">
   <h1>{{ site.name }}</h1>
-<h5>Software Developer</h5>
-<!-- </div> -->
-<p>Reach me via:&nbsp;
-  <a href="mailto:martin@magingras.com?Subject=Your%20Website" title="Email Me!"><i class="icon-envelope-alt icon-large"></i></a>
-  <a href="http://github.com/mgingras/"><i class="icon-github icon-large"></i></a>
-  <a href="http://www.linkedin.com/in/martinpgingras"><i class="icon-linkedin-sign icon-large"></i></a>
-  <!-- <a href="https://www.facebook.com/Martin.P.Gingras"><i class="icon-facebook-sign icon-large"></i></a> -->
-  <a href="https://twitter.com/martin_gingras"><i class="icon-twitter-sign icon-large"></i></a>
-</p>
-<h2>About me</h2>
-<nav>
-  <p><i class="icon-terminal"></i> open <a href="/resume">Resume</a> (<a href="/resume/resume.pdf">PDF</a>)</p>  
-  <h2><a style="color:#33CC6A;"href="/coding">Coding Projects</a></h2>
-</nav>
-{% for project in site.categories.coding %}
-<p><i class="icon-terminal"></i> open<a href="{{ project.url }}"> {{ project.title }}/</a></p>
-{% endfor %}
+  <h5>Software Developer</h5>
+  <p>Reach me via:&nbsp;
+  	<a href="mailto:martin@magingras.com?Subject=Your%20Website" title="Email Me!"><i class="icon-envelope-alt icon-large"></i></a>
+  	<a href="http://github.com/mgingras/"><i class="icon-github icon-large"></i></a>
+  	<a href="http://www.linkedin.com/in/martinpgingras"><i class="icon-linkedin-sign icon-large"></i></a>
+  	<!-- <a href="https://www.facebook.com/Martin.P.Gingras"><i class="icon-facebook-sign icon-large"></i></a> -->
+  	<a href="https://twitter.com/martin_gingras"><i class="icon-twitter-sign icon-large"></i></a>
+  </p>
+  <h2>About me</h2>
+  <nav>
+  	<p><i class="icon-terminal"></i> open <a href="/resume">Resume</a> (<a href="/resume/resume.pdf">PDF</a>)</p>  
+  	<h2><a style="color:#33CC6A;"href="/coding">Coding Projects</a></h2>
+  </nav>
+  {% for project in site.categories.coding %}
+  <p><i class="icon-terminal"></i> open<a href="{{ project.url }}"> {{ project.title }}/</a></p>
+  {% endfor %}
