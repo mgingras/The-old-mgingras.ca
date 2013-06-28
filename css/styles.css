@@ -60,6 +60,7 @@ body {
   -webkit-border-radius: 6px;
   border-radius: 6px;
   text-align: center;
+  z-index:1;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -294,6 +295,9 @@ footer {
   
   .sidebar ul {
     display:none;
+  }
+  .resume {
+    width:400px;
   }
 }
 
