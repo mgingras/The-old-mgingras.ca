@@ -3,6 +3,7 @@
 
 body {
   padding:25px;
+  padding-top:60px;
   font:14px/1.5 'Quantico', Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#888;
   font-weight:300;
@@ -291,6 +292,7 @@ footer {
 @media print, screen and (max-width: 480px) {
   body {
     padding:15px;
+    padding-top: 60px;
   }
   
   .sidebar ul {
