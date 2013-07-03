@@ -55,7 +55,26 @@ Will return the following XML data:
 
 As you can see the desired information is wrapped in ```<syn>``` tags. 
 
-Progress....
+####Progress so far:
+
+- [x] Find Thesaurus API -> Use Mirriam Webster API to retrieve synonyms
+- [x] Get rid of form elements -> clickless application
+- [x] Modify current text box area so that it takes 50% of area instead of max 600, add <p></p> tag to fill on right hand side
+- [x] Use JQuery to register event listener for changes in text area
+- [x] Use JQuery to modify paragraph on right hand side so that it mirrors text in box
+- [ ] Basic request for synonyms
+- [ ] Implement smarter synonym logic
+
+If you have any suggestions please feel free to pass them along:   	<a href="mailto:martin@magingras.com?Subject=Synonymizer%20Suggestion" title="Email Me!">martin@magingras.com</a>
+
+
+
+* Check out: https://github.com/mikeal/request for simple requests...
+
+
+Code pushed to heroku dev environment: [http://synonymizer.herokuapp.com/](http://synonymizer.herokuapp.com/)
+
+
 
 
 ![Under Construction](http://t3.gstatic.com/images?q=tbn:ANd9GcQxVIewybJj0mbyVLfpoFPIXkAfcYCtQKhRqdFrYvKRRyKwxy5p "Under Construction")
