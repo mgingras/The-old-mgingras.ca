@@ -6,7 +6,7 @@ categories: coding
 
 #####\[ *si-non-uh-mahyz-er*\]
 
-<p><strong>Built using:</strong>&nbsp;&nbsp;<span class="pict-prog-nodejs01 icon-2x"> </span>&nbsp;<span class="pict-dbs-mysql icon-3x"> </span>&nbsp;<span class="pict-html5-01 icon-2x"> </span>&nbsp;<span class="pict-css3-01 icon-2x"> </span>&nbsp;<span class="pict-prog-js02 icon-2x"> </span></p>
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span class="pict-prog-nodejs01 icon-2x"> </span>&nbsp;<span class="pict-html5-01 icon-2x"> </span>&nbsp;<span class="pict-css3-01 icon-2x"> </span>&nbsp;<span class="pict-prog-js02 icon-2x"> </span></p>
 
 
 
