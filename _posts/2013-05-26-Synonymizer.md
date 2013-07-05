@@ -20,44 +20,38 @@ If I become particularly comfortable during this project in JS I may try to writ
   
 *Curently under construction* <!-- abridge -->
 
-Decided to use the merriam-webster dictionary since they have an open API that allows you to query items to their thesaurus and will feed back well formatted XML for us to parse.   
+Originally planned to use the merriam-webster dictionary since they have an open API that allows you to query items to their thesaurus and will feed back well formatted XML for us to parse.   
+
+However, their api limits you to 1000 requests per day and XML is the only return format.
 
 Their [site](http://www.dictionaryapi.com/)   
 
-For example, passing a request of the form: ```http://www.dictionaryapi.com/api/v1/references/thesaurus/xml/recourse?key=\[API KEY\]```
+I decided instead to use Big Huge Labs since they have more return options, including JSON, higher request limit, and also more verbose responses.
 
-Will return the following XML data:
+See their [site](http://words.bighugelabs.com/api.php)
 
-{% highlight xml %}
-<entry_list version="1.0">
-<entry id="recourse">
-	<term>
-		<hw>recourse</hw>
-	</term>
-	<fl>noun</fl>
-	<sens>
-		<mc>
-			something that one uses to accomplish an end especially when the usual means is not available
-		</mc>
-		<vi>
-			a toddler quickly learns that a tantrum is a surefire
-			<it>recourse</it>
-			when a polite request for something is met with parental indifference
-		</vi>
-		<syn>expedient, recourse, resort</syn>
-		<rel>
-			hope, opportunity, possibility, relief; makeshift, replacement, stopgap, substitute
-		</rel>
-	</sens>
-</entry>
-</entry_list>
-{% endhighlight %}
+Requests will be sent in the form: http://words.bighugelabs.com/api/{version}/{api key}/{word}/{format}
 
-As you can see the desired information is wrapped in ```<syn>``` tags. 
+Responses will have the following relationship types:
+- "syn" for synonyms
+- "ant" for antonyms
+- "rel" for related terms
+- "sim" for similar terms
+- "usr" for user suggestions
+
+I will be getting JSON format responses parsing for focusing on the "syn" data
+
+Big Huge labs also provieds the following HTTP Response Codes:
+
+200 OK: The word was found and the results are in the body.
+303 {alternate}: The original word was not found but an alternative has been. The alternative is the HTTP response message. For example, a request for "reminding" returns 303 remind. The Location header contains the URL for the API request for "remind."
+404 Not Found: No data could be found for the word or alternates.
+500 Usage Exceeded: Usage limits have been exceeded.
+500 Inactive key: The key is not active.
 
 ####Progress so far:
 
-- [x] Find Thesaurus API -> Use Mirriam Webster API to retrieve synonyms
+- [x] Find Thesaurus API
 - [x] Get rid of form elements -> clickless application
 - [x] Modify current text box area so that it takes 50% of area instead of max 600, add <p></p> tag to fill on right hand side
 - [x] Use JQuery to register event listener for changes in text area
@@ -75,9 +69,8 @@ If you have any suggestions please feel free to pass them along:   	<a href="mai
 Code pushed to heroku dev environment: [http://synonymizer.herokuapp.com/](http://synonymizer.herokuapp.com/)
 
 
-
-
 ![Under Construction](http://t3.gstatic.com/images?q=tbn:ANd9GcQxVIewybJj0mbyVLfpoFPIXkAfcYCtQKhRqdFrYvKRRyKwxy5p "Under Construction")
+
 ###Under Construction
 
-<!-- See the [code](https://github.com/mgingras/synonymizer) - Try the [app](http://synonymizer.herokuapp.com/) -->
+See the [code](https://github.com/mgingras/synonymizer) *currently private* - Try the [app](http://synonymizer.herokuapp.com/)
