@@ -18,7 +18,10 @@ I have recently taken a keen interest in web development and am looking to hone 
 
 If I become particularly comfortable during this project in JS I may try to write some of the more simple front end JS in CoffeeScript.
   
-*Curently under construction* <!-- abridge -->
+*Curently under construction*   
+![Under Construction](http://t3.gstatic.com/images?q=tbn:ANd9GcQxVIewybJj0mbyVLfpoFPIXkAfcYCtQKhRqdFrYvKRRyKwxy5p "Under Construction")
+<!-- abridge -->
+###Under Construction
 
 Originally planned to use the merriam-webster dictionary since they have an open API that allows you to query items to their thesaurus and will feed back well formatted XML for us to parse.   
 
@@ -51,26 +54,21 @@ Big Huge labs also provieds the following HTTP Response Codes:
 
 ####Progress so far:
 
-- [x] Find Thesaurus API
-- [x] Get rid of form elements -> clickless application
-- [x] Modify current text box area so that it takes 50% of area instead of max 600, add <p></p> tag to fill on right hand side
-- [x] Use JQuery to register event listener for changes in text area
-- [x] Use JQuery to modify paragraph on right hand side so that it mirrors text in box
-- [ ] Basic request for synonyms
-- [ ] Implement smarter synonym logic
+- Find Thesaurus API 
+- Get rid of form elements -> clickless application
+- Modify current text box area so that it takes 50% of area instead of max 600, add "p" tag to fill on right hand side
+- Use JQuery to register event listener for changes in text area
+- Use JQuery to modify paragraph on right hand side so that it mirrors text in box
+- Basic request for synonyms
+- Implement smarter synonym logic
 
-If you have any suggestions please feel free to pass them along:   	<a href="mailto:martin@magingras.com?Subject=Synonymizer%20Suggestion" title="Email Me!">martin@magingras.com</a>
+<div>
+<p>If you have any suggestions please feel free to pass them along: <a href="mailto:martin@magingras.com?Subject=Synonymizer%20Suggestion" title="Email Me!">martin@magingras.com</a></p>
+</div>
 
-
-
-* Check out: https://github.com/mikeal/request for simple requests...
+##### Check out: https://github.com/mikeal/request for simple requests...
 
 
 Code pushed to heroku dev environment: [http://synonymizer.herokuapp.com/](http://synonymizer.herokuapp.com/)
 
-
-![Under Construction](http://t3.gstatic.com/images?q=tbn:ANd9GcQxVIewybJj0mbyVLfpoFPIXkAfcYCtQKhRqdFrYvKRRyKwxy5p "Under Construction")
-
-###Under Construction
-
-See the [code](https://github.com/mgingras/synonymizer) *currently private* - Try the [app](http://synonymizer.herokuapp.com/)
+See the [code](https://github.com/mgingras/synonymizer) *currently private*
