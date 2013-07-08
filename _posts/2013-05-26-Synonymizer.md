@@ -20,7 +20,9 @@ If I become particularly comfortable during this project in JS I may try to writ
   
 *Curently under construction*   
 ![Under Construction](http://t3.gstatic.com/images?q=tbn:ANd9GcQxVIewybJj0mbyVLfpoFPIXkAfcYCtQKhRqdFrYvKRRyKwxy5p "Under Construction")
+
 <!-- abridge -->
+
 ###Under Construction
 
 Originally planned to use the merriam-webster dictionary since they have an open API that allows you to query items to their thesaurus and will feed back well formatted XML for us to parse.   
