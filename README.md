@@ -1,13 +1,16 @@
 mgingras.github.io
 ===================
 
-My personal website - originally created using github pages Minimal template. Since then hacked apart and modified to use Jekyll to serve up the content
+My personal website -[x] originally created using github pages Minimal template. Since then hacked apart and modified to use Jekyll to serve up the content
 http://www.magingras.com
 
 To-do:
 
-- Get projects up on site *done*
-  - Pretty them up *doneish*
-- Add mobile capability for Resume portion
-- Swipe navigation on mobile?
-- Add limits on sidebar display for projects, and a see all link so we can get rid of the anchor on the header.
+-[x] Find Thesaurus API 
+-[x] Set up HTML UI, with text box on left, button in middle, output on right 
+-[x] Use JQuery to register event listeners 
+-[x] Use JQuery to modify paragraph on right hand side so that it mirrors text in box 
+-[x] Basic request for synonyms 
+-[x] Pass data from web application to server and get response back 
+-[x] Modify the output field on the right with synonymized data 
+-[ ] Implement natural language recognition and replace words with valid synonymz (verb, noun, adjective) (currently just replace with whichever has data(stupid))
