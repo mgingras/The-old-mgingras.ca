@@ -14,12 +14,12 @@ Backend server written in node.js.
 
 I have recently taken a keen interest in web development and am looking to hone my skills in it. I have heard very good things about NodeJS and as such have decided to pursue my interest in it. What particularly appeals to me about node is the simplicity of creating non-blocking code and writing both front and back end in JavaScript.    
   
-*Curently under construction*   
-![Under Construction](http://t3.gstatic.com/images?q=tbn:ANd9GcQxVIewybJj0mbyVLfpoFPIXkAfcYCtQKhRqdFrYvKRRyKwxy5p "Under Construction")
+*Currently in Beta Testing, [check it out](http://synonymizer.herokuapp.com/)*   
+![In Beta Testing](/img/beta.png "In Beta Testing")
 
 <!-- abridge -->
 
-###Under Construction
+###Beta
 
 Originally I planned to use the merriam-webster dictionary since they have an open API that allows you to query items to their thesaurus and will feed back XML data.   
 
@@ -69,7 +69,8 @@ Depending how large this exception list gets I may move the exception checking t
 - Basic request for synonyms *done*
 - Pass data from web application to server and get response back *done*
 - Modify the output field on the right with synonymized data *done*
-- Implement natural language recognition and replace words with valid synonymz (verb, noun, adjective) (currently just replace with whichever has data(stupid))
+- Implement natural language recognition and replace words with valid synonymz (verb, noun, adjective) (currently just replace with whichever has data(stupid)) *doneish*
+
 
 <div>
 <p>If you have any suggestions please feel free to pass them along: <a href="mailto:martin@magingras.com?Subject=Synonymizer%20Suggestion" title="Email Me!">martin@magingras.com</a></p>
