@@ -73,7 +73,7 @@ Depending how large this exception list gets I may move the exception checking t
 
 
 <div>
-<p>If you have any suggestions please feel free to pass them along: <a href="mailto:martin@magingras.com?Subject=Synonymizer%20Suggestion" title="Email Me!">martin@magingras.com</a></p>
+<p>If you have any suggestions please feel free to pass them along: <a href="mailto:martin@mgingras.ca?Subject=Synonymizer%20Suggestion" title="Email Me!">martin@mgingras.ca</a></p>
 </div>
 
 ##### Check out: https://github.com/mikeal/request for simple requests...
