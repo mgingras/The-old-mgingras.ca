@@ -70,13 +70,13 @@ Depending how large this exception list gets I may move the exception checking t
 - Pass data from web application to server and get response back *done*
 - Modify the output field on the right with synonymized data *done*
 - Implement natural language recognition and replace words with valid synonymz (verb, noun, adjective) (currently just replace with whichever has data(stupid)) *doneish*
-
+- Add node package natural, change words to singular when querying synonyms, then pluarlize when passing back to UI
 
 <div>
 <p>If you have any suggestions please feel free to pass them along: <a href="mailto:martin@mgingras.ca?Subject=Synonymizer%20Suggestion" title="Email Me!">martin@mgingras.ca</a></p>
 </div>
 
-##### Check out: https://github.com/mikeal/request for simple requests...
+
 
 
 Code pushed to heroku dev environment: [http://synonymizer.herokuapp.com/](http://synonymizer.herokuapp.com/)
