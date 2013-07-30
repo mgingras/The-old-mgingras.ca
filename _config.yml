@@ -1,7 +1,7 @@
 name: Martin Gingras
 safe: true
 permalink: /:categories/:title
-url: http://magingras.com
+url: http://mgingras.ca
 markdown: maruku
 port: 4000
 future: false

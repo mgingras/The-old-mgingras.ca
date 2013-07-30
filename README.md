@@ -2,7 +2,7 @@ mgingras.github.io
 ===================
 
 My personal website -[x] originally created using github pages Minimal template. Since then hacked apart and modified to use Jekyll to serve up the content
-http://www.magingras.com
+http://www.mgingras.ca
 
 To-do:
 
