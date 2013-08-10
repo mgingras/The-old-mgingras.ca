@@ -50,18 +50,18 @@ body {
 }
 
 .homeButton {
-  position:fixed;
-  top:-6px;
-  left:20px;
+  position: fixed;
+  top: -6px;
+  left: 5%;
   height:60px;
   width:40px;
-  background-color:#39c;
-  text-color:white;
+  background-color: #39c;
+  text-color: white;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   border-radius: 6px;
   text-align: center;
-  z-index:1;
+  z-index: 1;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -279,11 +279,13 @@ footer {
     border: 0px;
     background: #222;
   }
-  
+  .homeButton {
+    left: inherit;
+    right: 25%;
+  }
   .sidebar ul, .sidebar p.view {
     position:static;
   }
-  
   pre, code {
     word-wrap:normal;
   }
@@ -294,12 +296,15 @@ footer {
     padding:15px;
     padding-top: 60px;
   }
-  
   .sidebar ul {
     display:none;
   }
   .resume {
     width:400px;
+  }
+  .homeButton {
+    left: inherit;
+    right: 10%;
   }
 }
 
