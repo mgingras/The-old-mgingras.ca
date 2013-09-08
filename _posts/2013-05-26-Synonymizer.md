@@ -14,7 +14,7 @@ Backend server written in node.js.
 
 I have recently taken a keen interest in web development and am looking to hone my skills in it. I have heard very good things about NodeJS and as such have decided to pursue my interest in it. What particularly appeals to me about node is the simplicity of creating non-blocking code and writing both front and back end in JavaScript.    
   
-*Currently in Beta Testing, [check it out](http://synonymizer.herokuapp.com/)*   
+*Currently in Beta Testing, [check it out](http://www.synonym-izer/)*   
 ![In Beta Testing](/img/beta.png "In Beta Testing")
 
 <!-- abridge -->
@@ -79,6 +79,6 @@ Depending how large this exception list gets I may move the exception checking t
 
 
 
-Code pushed to heroku dev environment: [http://synonymizer.herokuapp.com/](http://synonymizer.herokuapp.com/)
+Code pushed to heroku dev environment: [http://www.synonym-izer.com/](http://www.synonym-izer.com/)
 
-<!-- See the [code](https://github.com/mgingras/synonymizer) *currently private* -->
+See the [code](https://github.com/mgingras/synonymizer)
