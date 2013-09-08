@@ -6,7 +6,7 @@ categories: coding
 
 #####A twist on the classic game, minesweeper, where the consequences for selecting an incorrect tile are a bit more vile.
 
-<p><strong>Built using:</strong>&nbsp;&nbsp;<span class="pict-prog-java icon-2x"> </span>Java</p>
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="Java" class="pict-prog-java icon-2x"> </span>Java</p>
 
 
 

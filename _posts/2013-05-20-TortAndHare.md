@@ -6,7 +6,7 @@ categories: coding
 
 #####A simulation of the age old tale - The Tortoise and the Hare
 
-<p><strong>Built using:</strong>&nbsp;&nbsp;<span class="pict-prog-cplusplus icon-3x"></span></p>
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="C++" class="pict-prog-cplusplus icon-3x"></span></p>
 
 
 

@@ -6,7 +6,7 @@ categories: coding
 
 #####A floorplan app that allows you to visualize your layout and where the nearest safety exit would be.
 
-<p><strong>Built using:</strong>&nbsp;&nbsp;<span class="pict-prog-java icon-2x"> </span>Java</p>
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="Java" class="pict-prog-java icon-2x"> </span>Java</p>
 
 
 

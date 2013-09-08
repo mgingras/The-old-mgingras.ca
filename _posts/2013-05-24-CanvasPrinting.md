@@ -2,12 +2,11 @@
 layout: project
 title: Canvas-Printing
 categories: coding
-root: true
 ---
 
 #####A simple photo gallery/print ordering proof of concept [website](http://mgprinting.herokuapp.com/).   
 
-<p><strong>Built using:</strong>&nbsp;&nbsp;<span class="pict-prog-php02 icon-2x"> </span>&nbsp;<span class="pict-dbs-mysql icon-3x"> </span>&nbsp;<span class="pict-prog-js02 icon-2x"> </span>&nbsp;<span class="pict-html5-01 icon-2x"> </span>&nbsp;<span class="pict-css3-01 icon-2x"> </span></p>
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="PHP" class="pict-prog-php02 icon-2x"> </span>&nbsp;<span title="MySQL" class="pict-dbs-mysql icon-3x"> </span>&nbsp;<span title="JavaScript" class="pict-prog-js02 icon-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 icon-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 icon-2x"> </span></p>
 
 
 

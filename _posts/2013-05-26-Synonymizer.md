@@ -6,7 +6,7 @@ categories: coding
 
 #####\[ *si-non-uh-mahyz-er*\]
 
-<p><strong>Built using:</strong>&nbsp;&nbsp;<span class="pict-prog-nodejs01 icon-2x"> </span>&nbsp;<span class="pict-dbs-mongodb icon-2x"> </span>&nbsp;<span class="pict-prog-js02 icon-2x"> </span>&nbsp;<span class="pict-prog-jquery icon-2x"> </span>&nbsp;<span class="pict-html5-01 icon-2x"> </span>&nbsp;<span class="pict-css3-01 icon-2x"> </span></p>
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="node.js" class="pict-prog-nodejs01 icon-2x"> </span>&nbsp;<span title="MongoDB" class="pict-dbs-mongodb icon-2x"> </span>&nbsp;<span title="JavaScript" class="pict-prog-js02 icon-2x"> </span>&nbsp;<span title="JQuery" class="pict-prog-jquery icon-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 icon-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 icon-2x"> </span></p>
 
 This is a program which takes inputted text and substitute words within it for their synonyms.
 
