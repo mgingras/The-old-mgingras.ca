@@ -14,7 +14,7 @@ Backend server written in node.js.
 
 I have recently taken a keen interest in web development and am looking to hone my skills in it. I have heard very good things about NodeJS and as such have decided to pursue my interest in it. What particularly appeals to me about node is the simplicity of creating non-blocking code and writing both front and back end in JavaScript.    
   
-*Currently in Beta Testing, [check it out](http://www.synonym-izer/)*   
+*Currently in Beta Testing, [check it out](http://www.synonym-izer.com/)*   
 ![In Beta Testing](/img/beta.png "In Beta Testing")
 
 <!-- abridge -->
