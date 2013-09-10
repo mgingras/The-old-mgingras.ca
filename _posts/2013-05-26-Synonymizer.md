@@ -4,7 +4,7 @@ title: Synonymizer
 categories: coding
 ---
 
-#####\[ *si-non-uh-mahyz-er*\]
+#####[\[*synonym-izer*\]](www.synonym-izer.com)
 
 <p><strong>Built using:</strong>&nbsp;&nbsp;<span title="node.js" class="pict-prog-nodejs01 icon-2x"> </span>&nbsp;<span title="MongoDB" class="pict-dbs-mongodb icon-2x"> </span>&nbsp;<span title="JavaScript" class="pict-prog-js02 icon-2x"> </span>&nbsp;<span title="JQuery" class="pict-prog-jquery icon-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 icon-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 icon-2x"> </span></p>
 
@@ -21,15 +21,11 @@ I have recently taken a keen interest in web development and am looking to hone 
 
 ###Beta
 
-Originally I planned to use the merriam-webster dictionary since they have an open API that allows you to query items to their thesaurus and will feed back XML data.   
+Originally I planned to use the [merriam-webster](http://www.dictionaryapi.com/) dictionary since they have an open API that allows you to query items to their thesaurus and will feed back XML data.   
 
 However, their api limits you to 1000 requests per day and XML is the only return format.
 
-Their [site](http://www.dictionaryapi.com/)   
-
-I decided instead to use Big Huge Labs since they have more return options, including JSON, higher request limit, and retern more verbose responses.
-
-See their [site](http://words.bighugelabs.com/api.php)
+**Instead**, I decided instead to use [Big Huge Labs](http://words.bighugelabs.com/api.php) since they have more return options, including JSON, higher request limit, and retern more verbose responses.
 
 Requests will be sent in the form: http://words.bighugelabs.com/api/{version}/{api key}/{word}/{format}
 
