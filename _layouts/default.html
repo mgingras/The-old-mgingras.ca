@@ -14,7 +14,10 @@
     </div>  <!-- sidebar -->
     <script>
     var h = $('#sidebar').height();
-    $('#content').slimScroll();
+    $('#content').slimScroll({
+      alwaysVisible:true,
+      wheelStep:2
+    });
     </script>
     <div class = "content">     
       {{ content }}
