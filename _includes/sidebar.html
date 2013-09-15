@@ -1,17 +1,19 @@
+<div id="content" style="height:100%;">
   <img alt="Martin Gingras" src="/img/me.png" style="height:60px; width:60px; margin-right:10px; -webkit-border-radius: 8px 8px 8px 8px;-moz-border-radius: 8px 8px 8px 8px;border-radius: 8px 8px 8px 8px;float:left;">
   <h1>{{ site.name }}</h1>
   <h3>Software Developer</h3>
   <p>Reach me via:&nbsp;
-  	<a href="mailto:martin@mgingras.ca?Subject=Your%20Website" title="Email Me!"><i class="icon-envelope-alt icon-large"></i></a>
-  	<a href="http://github.com/mgingras/"><i class="icon-github icon-large"></i></a>
-  	<a href="http://www.linkedin.com/in/martinpgingras"><i class="icon-linkedin-sign icon-large"></i></a>
-  	<a href="https://twitter.com/martin_gingras"><i class="icon-twitter-sign icon-large"></i></a>
+    <a href="mailto:martin@mgingras.ca?Subject=Your%20Website" title="Email Me!"><i class="icon-envelope-alt icon-large"></i></a>
+    <a href="http://github.com/mgingras/"><i class="icon-github icon-large"></i></a>
+    <a href="http://www.linkedin.com/in/martinpgingras"><i class="icon-linkedin-sign icon-large"></i></a>
+    <a href="https://twitter.com/martin_gingras"><i class="icon-twitter-sign icon-large"></i></a>
   </p>
   <h2>About me</h2>
   <nav>
-  	<p><i class="icon-terminal"></i> open <a href="/resume/resume.pdf">Resume</a></p>  
-  	<h2><a style="color:#33CC6A;" href="/coding">Coding Projects</a></h2>
+    <p><i class="icon-terminal"></i> open <a href="/resume/resume.pdf">Resume</a></p>  
+    <h2><a style="color:#33CC6A;" href="/coding">Coding Projects</a></h2>
   </nav>
   {% for project in site.categories.coding %}
   <p><i class="icon-terminal"></i> open<a href="{{ project.url }}"> {{ project.title }}/</a></p>
   {% endfor %}
+</div>

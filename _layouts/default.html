@@ -12,6 +12,10 @@
     <div class="sidebar">
       {% include sidebar.html %}
     </div>  <!-- sidebar -->
+    <script>
+    var h = $('#sidebar').height();
+    $('#content').slimScroll();
+    </script>
     <div class = "content">     
       {{ content }}
     </div> <!-- content -->
