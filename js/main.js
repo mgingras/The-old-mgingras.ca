@@ -29,21 +29,20 @@ b.bind("mouseup.slimscroll",function(a){y=!1;p();b.unbind(".slimscroll")});retur
 
 
 // jquery.touchSwipe handlers
-
 $(function() {      
-      //Enable swiping...
-      $("html").swipe({
-        //Generic swipe handler for all directions
-        swipe:function(event, direction, distance, duration, fingerCount) {
-          if(direction == 'left'){
-            history.go(1);
-          }
-          else if(direction == 'right'){
-            history.go(-1);
-          }
-        },
-        //Default is 75px, set to 0 for demo so any distance triggers swipe
-         threshold:0
-      });
-    });
+  //Enable swiping...
+  $("html").swipe({
+    //Generic swipe handler for all directions
+    swipe:function(event, direction, distance, duration, fingerCount) {
+      if(direction == 'left'){
+        history.go(1);
+      }
+      else if(direction == 'right'){
+        history.go(-1);
+      }
+    },
+    //Default is 75px, set to 0 for demo so any distance triggers swipe
+    threshold:25
+  });
+});
     
