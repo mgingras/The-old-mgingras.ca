@@ -38,16 +38,7 @@ $(function() {
     swipeRight:function(event, distance, duration, fingerCount) {
       history.go(-1);
     },
-    // //Generic swipe handler for all directions
-    // swipe:function(event, direction, distance, duration, fingerCount) {
-    //   if(direction == 'left'){
-    //     history.go(1);
-    //   }
-    //   else if(direction == 'right'){
-    //     history.go(-1);
-    //   }
-    // },
-    //Default is 75px, set to 0 for demo so any distance triggers swipe
+    pageScroll:"vertical",
     threshold:75
   });
 });
