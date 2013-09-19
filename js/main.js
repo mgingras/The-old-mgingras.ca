@@ -40,6 +40,9 @@ $(function() {
       else if(direction == 'right'){
         history.go(-1);
       }
+      else{
+        return false;
+      }
     },
     //Default is 75px, set to 0 for demo so any distance triggers swipe
     threshold:25
