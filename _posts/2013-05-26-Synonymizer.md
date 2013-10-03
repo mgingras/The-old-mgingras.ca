@@ -56,6 +56,12 @@ How it has been implemented is:
 
 Depending how large this exception list gets I may move the exception checking to the server...
 
+**UPDATE**
+
+Ahh, I have now made synonymizer too smart and it is **rarely ever doing anything**; this sucks. I'm going to make it stupider, if it can't be good it may as well be funny...   
+
+(I will think about returning to this later if I can conceptualize a way to appropriately interpret natural language inteligently and provide synonyms)
+
 ####Progress so far:
 
 - Find Thesaurus API *done*
