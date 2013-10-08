@@ -4,7 +4,7 @@ title: Synonymizer
 categories: coding
 ---
 
-#####[\[*synonym-izer*\]](www.synonym-izer.com)
+#####Check it out: [\[*synonym-izer*\]](http://www.synonym-izer.com/)
 
 <p><strong>Built using:</strong>&nbsp;&nbsp;<span title="node.js" class="pict-prog-nodejs01 icon-2x"> </span>&nbsp;<span title="MongoDB" class="pict-dbs-mongodb icon-2x"> </span>&nbsp;<span title="JavaScript" class="pict-prog-js02 icon-2x"> </span>&nbsp;<span title="JQuery" class="pict-prog-jquery icon-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 icon-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 icon-2x"> </span></p>
 
@@ -13,14 +13,23 @@ This is a program which takes inputted text and substitute words within it for t
 Backend server written in node.js.   
 
 I have recently taken a keen interest in web development and am looking to hone my skills in it. I have heard very good things about NodeJS and as such have decided to pursue my interest in it. What particularly appeals to me about node is the simplicity of creating non-blocking code and writing both front and back end in JavaScript.    
-  
-*Currently in Beta Testing, [check it out](http://www.synonym-izer.com/)*   
-![In Beta Testing](/img/beta.png "In Beta Testing")
 
 <!-- abridge -->
 
-###Beta
+###How it has been implemented:
+- When a user hits the page the data is queried from database and passed to the browser as an array.
+- After entering text and once they press the synonymize button, the text is grabbed by JQuery and attempts to be parsed by a natural language parser.
+- The api I found for this was limited to < 250 charachters so I wrote a simple handler to be dumb if text is longer.
+- After parsing the grammar of the text, but before a request processed by the server, the words are compared to the exception list, if the word is in the list, no call to our server is made, saving thesaurus API calls (and server traffic).
+- At this point I originally had code to singularize a word prior to querying (later pluralizing the synonym), however it sucked and ruined words, so I took it out.
+- The word and it's grammar are passed to the server, which queries the thesaurus API and grabs the response and verifies if there are synonyms in the same grammar context as the word queried, if there are they're returned to the front-end
+- Any API calls that we make that result in a 303 or 404 header being returned will have their word added to this excpetion list (stored in a MongoDB for persistence)
+- JQuery then populates the output field with synonmyized words
 
+
+(Depending how large this exception list gets I may move the exception checking to the server...)
+
+###Thesaurus API
 Originally I planned to use the [merriam-webster](http://www.dictionaryapi.com/) dictionary since they have an open API that allows you to query items to their thesaurus and will feed back XML data.   
 
 However, their api limits you to 1000 requests per day and XML is the only return format.
@@ -49,28 +58,8 @@ Big Huge labs also provieds the following HTTP Response Codes:
 
 After some testing I noticed that there were a lot of 303 messages returned, that would re-direct us to an un-related synonym, and 404, indicating that the word we were looking for did not have any data. I decided to then create a back end database to store these exceptions in order to minimize the number of API calls we made, and also to speed up the event loop.
 
-How it has been implemented is:
-- When a user hits the page the data is queried from database and passed to the browser as an array.
-- Before a request is even sent up to the our server it is run through this exception list, if it is in there, no call to our server and thus to the API is required.
-- Any API calls that we make that result in a 303 or 404 header being returned will have their word added to this excpetion list.
 
-Depending how large this exception list gets I may move the exception checking to the server...
-
-
-
-<div class="panel panel-default warning">
-  <div class="panel-heading">**UPDATE**</div>
-  <div class="panel-body">
-    <p>Ahh, I have now made synonymizer too smart and it is rarely ever doing anything; this sucks. I'm going to make it stupider, if it can't be good it may as well be funny...   
-
-(I will think about returning to this later if I can conceptualize a way to appropriately interpret natural language inteligently and provide synonyms)</p>
-  </div>
-</div>
-
-
-
-
-####Progress so far:
+###Progress so far:
 
 - Find Thesaurus API *done*
 - Set up HTML UI, with text box on left, button in middle, output on right *done*
@@ -80,15 +69,13 @@ Depending how large this exception list gets I may move the exception checking t
 - Pass data from web application to server and get response back *done*
 - Modify the output field on the right with synonymized data *done*
 - Implement natural language recognition and replace words with valid synonymz (verb, noun, adjective) (currently just replace with whichever has data(stupid)) *doneish*
-- Add node package natural, change words to singular when querying synonyms, then pluarlize when passing back to UI *done*
+- Add node package natural, change words to singular when querying synonyms, then pluarlize when passing back to UI *reverted*
+
+
+##### Give me a shout!
 
 <div>
 <p>If you have any suggestions please feel free to pass them along: <a href="mailto:martin@mgingras.ca?Subject=Synonymizer%20Suggestion" title="Email Me!">martin@mgingras.ca</a></p>
 </div>
 
-
-
-
-Code pushed to heroku dev environment: [http://www.synonym-izer.com/](http://www.synonym-izer.com/)
-
-See the [code](https://github.com/mgingras/synonymizer)
+See the [code](https://github.com/mgingras/synonymizer) - Check out [http://www.synonym-izer.com/](http://www.synonym-izer.com/)
