@@ -2,7 +2,7 @@ name: Martin Gingras
 safe: true
 permalink: /:categories/:title
 url: http://mgingras.ca
-markdown: maruku
+markdown: redcarpet
 port: 4000
 future: false
 exclude:
