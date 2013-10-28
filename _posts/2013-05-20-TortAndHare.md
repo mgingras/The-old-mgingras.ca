@@ -4,14 +4,17 @@ title: Tortoise and Hare Race Simulation
 categories: coding
 ---
 
-#####A simulation of the age old tale - The Tortoise and the Hare
+#####*A simulation of the age old tale - The Tortoise and the Hare*
 
 <p><strong>Built using:</strong>&nbsp;&nbsp;<span title="C++" class="pict-prog-cplusplus icon-3x"></span></p>
 
 
 
 This project is split out to follow the MVC principles and is wholly written in C++ with the view rendered using the Curses C++ {libraryexcerpt_separator}.
-<!-- abridge -->When this program is executed a simulation of a tortoise, represented by '```@```', and hare, represented by '```^```', race up your 
+
+<!-- abridge -->
+
+When this program is executed a simulation of a tortoise, represented by '```@```', and hare, represented by '```^```', race up your 
 terminal or "to the peak of a mountain."
 
 

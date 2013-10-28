@@ -4,7 +4,7 @@ title: Shitsweeper
 categories: coding
 ---
 
-#####A twist on the classic game, minesweeper, where the consequences for selecting an incorrect tile are a bit more vile.
+#####*A twist on the classic game, minesweeper, where the consequences for an incorrect selection are a bit more vile*
 
 <p><strong>Built using:</strong>&nbsp;&nbsp;<span title="Java" class="pict-prog-java icon-2x"> </span>Java</p>
 
@@ -12,6 +12,7 @@ categories: coding
 
 This application is a quick and dirty mock up of the age old game of minesweeper, with the incongruous twist
 that an incorrect choice will land you in a pile of s#it.
+
 <!-- abridge -->
 
 This game was mocked up in two steps. Initially it was created to be played on the command line. Once the game

@@ -4,14 +4,15 @@ title: Safety Map
 categories: coding
 ---
 
-#####A floorplan app that allows you to visualize your layout and where the nearest safety exit would be.
+#####*Safety map simulation software that displays quickest rout to nearest exit for an area*
 
 <p><strong>Built using:</strong>&nbsp;&nbsp;<span title="Java" class="pict-prog-java icon-2x"> </span>Java</p>
 
 
 
-An application that I build that lets you create a simple floorplan and define exits, and then will
+An application that I build that lets you create a simple floor plan and define exits, and then will
 recursively track the nearest exit.
+
 <!-- abridge -->
 
 This app has the following capabilities:   
