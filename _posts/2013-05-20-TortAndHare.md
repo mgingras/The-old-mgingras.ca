@@ -26,4 +26,4 @@ Instructions:
 2. This will compile and link all required files code.  
 3. Once compiled and linked enter "```./race```" to execute the binary, after which follow the on-screen instructions.
 
-See the [code](https://github.com/mgingras/theTortoiseAndTheHare)
+See the [code](http://github.com/mgingras/theTortoiseAndTheHare)

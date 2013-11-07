@@ -26,4 +26,4 @@ This app has the following capabilities:
 <a href="http://www.flickr.com/photos/97299680@N08/9001794427/" title="SafetyMapComputeRoute by martingingras, on Flickr"><img src="http://farm8.staticflickr.com/7406/9001794427_048eb65310_z.jpg" width="640" height="373" alt="SafetyMapComputeRoute"></a>   
 
 
-See the [code](https://github.com/mgingras/safety-map-route)
+See the [code](http://github.com/mgingras/safety-map-route)

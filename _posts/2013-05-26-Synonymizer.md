@@ -77,4 +77,4 @@ After some testing I noticed that there were a lot of 303 messages returned, tha
 <p>If you have any suggestions please feel free to pass them along: <a href="mailto:martin@mgingras.ca?Subject=Synonymizer%20Suggestion" title="Email Me!">martin@mgingras.ca</a></p>
 </div>
 
-See the [code](https://github.com/mgingras/synonymizer) - Check out [http://www.synonym-izer.com/](http://www.synonym-izer.com/)
+See the [code](http://github.com/mgingras/synonymizer) - Check out [http://www.synonym-izer.com/](http://www.synonym-izer.com/)
