@@ -47,7 +47,7 @@ The game progresses with the same logic as traditional minesweeper, where the un
 as '@'. If you win you may play another game and your score is aggregated. However, if at any point you land on a mine,
  the entire board is displayed, as well as your final score, and the game terminates.
 
-See the [code...](http//github.com/mgingras/stinky-game-command-line)
+See the [code...](https://github.com/mgingras/shitsweeper-command-line)
 
 During the second iteration of development of this application I switched out the view to make use of the Swing graphical 
 library for Java to allow for a prettier UI.
@@ -65,4 +65,4 @@ ended and the board is revealed and you are given the option to play again.
 <a href="http://www.flickr.com/photos/97299680@N08/9011402022/" title="stinkyWonGame by martingingras, on Flickr"><img src="http://farm8.staticflickr.com/7343/9011402022_d06fafba00_z.jpg" width="603" height="596" alt="stinkyWonGame"></a>   
 
 
-See the [code...](hhttp/github.com/mgingras/stinky-game-swing)
+See the [code...](https://github.com/mgingras/shitsweeper-game-swing)
