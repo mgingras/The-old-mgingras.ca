@@ -15,6 +15,10 @@ I have recently taken a keen interest in web development and am looking to hone 
 
 <!-- abridge -->
 
+###Live Demo:
+
+<object data=http://www.synonym-izer.com width="100%" height="650px"> <embed src=http://www.synonym-izer.com width="100%" height="500px"> </embed> <a href="http://www.synonym-izer.com">www.synonym-izer.com</a> </object>
+
 ###How it has been implemented:
 - When a user hits the page the data is queried from database and passed to the browser as an array.
 - After entering text and once they press the synonymize button, the text is grabbed by JQuery and attempts to be parsed by a natural language parser.
