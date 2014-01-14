@@ -4,7 +4,7 @@ title: HN Sentiment
 categories: coding
 ---
 
-####Check it out: [HN Sentiment](http://hn-sentiment.herokuapp.com)
+####Check it out: [HN Sentiment](http://hn-sentiment.com)
 #####*Web application that allows users to anylize the sentiment of the Hacker News community towards a particular topic*
 
 <p><strong>Built using:</strong>&nbsp;&nbsp;<span title="node.js" class="pict-prog-nodejs01 icon-2x"> </span>&nbsp;<span title="CoffeeScript" class="pict-prog-coffeescr icon-2x"> </span>&nbsp;<span title="JQuery" class="pict-prog-jquery icon-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 icon-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 icon-2x"> </span></p>
