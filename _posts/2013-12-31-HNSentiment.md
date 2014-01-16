@@ -20,16 +20,14 @@ This porject was done over a few days of my Christmas '13 holidays, for the Iron
 The project is written in CoffeeScript on NodeJS using the Express framework.
 How it functions:
 
-1. The application generates http requests for the 25 (number in flux) most recent posts with the entered keyword in their content or title.
-2. It then parses the content to determine the original post and, most interestingly, all of the comments.
-3. The app then iterates over the title, content, and all of the comments of the post and analyzes them for any sentiment using the [AFINN-111](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010) wordlist to determine an integer value for the desired topic.
-4. The number discovered is then returned and displayed to the client.
+1. The application generates http requests for the 10 (number in flux) most recent posts with the entered keyword in either their content or title.
+2. The content is then parsed to determine the original text and, more importantly, all of the comments.
+3. The app then aggregates title, content, and all of the comments of the post and analyzes them for any sentiment using the [AFINN-111](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010) wordlist to determine an integer value for the desired topic.
+4. The number discovered is then normalized by the number of posts found with comments then returned and displayed to the client.
 
 In my next iteration I will be:
 
-- Normalizing the returned values
-- Work on caching (right now have fairly basic cacheing, which on Heroku gets dumped every time the repo sleeps).
-- Cleaner (and more fun) UI
+- Work on *better* caching (right now have fairly basic cacheing, which on Heroku gets dumped every time the repo sleeps).
 - Track down any bottlenecks or bugs
 
 Send me an <a href="mailto:martin@mgingras.ca?Subject=HN-Sentiment" title="HN-Sentiment">email</a> with any suggestions!!
