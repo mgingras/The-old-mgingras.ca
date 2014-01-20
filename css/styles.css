@@ -115,7 +115,7 @@ code, pre {
 
 pre {
   padding:8px 15px;
-  background: #f8f8f8;  
+  background: #f8f8f8;
   border-radius:5px;
   border:1px solid #e5e5e5;
   overflow-x: auto;
@@ -157,7 +157,7 @@ img {
   background: -o-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
   background: -ms-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
   background: linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-  
+
   border-radius:5px;
   border:1px solid #d2d2d2;
   box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
@@ -222,27 +222,25 @@ footer {
   position:fixed;
   bottom:50px;
 }
+@media print, screen and (max-width: 930px) {
 
-
-@media print, screen and (max-width: 960px) {
-  
   div.wrapper {
     width:auto;
     margin:0;
   }
-  
+
   .sidebar, .content {
     float:none;
     position:static;
     width:auto;
     background:none;
   }
-  
+
   .sidebar {
     padding-right:320px;
     border: 0px;
   }
-  
+
   .content {
     border:1px solid #e5e5e5;
     border-width:1px 0;
@@ -250,11 +248,11 @@ footer {
     margin:0 0 20px;
     border:0px;
   }
-  
+
   .sidebar a small {
     display:inline;
   }
-  
+
   .sidebar ul {
     position:absolute;
     right:50px;
@@ -266,7 +264,7 @@ footer {
   body {
     word-wrap:break-word;
   }
-  
+
   .sidebar {
     padding:0;
     border: 0px;
