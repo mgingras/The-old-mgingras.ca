@@ -5,7 +5,7 @@ body {
   padding:25px;
   padding-top:60px;
   font:14px/1.5 'Quantico', Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#999999;
+  color:#cccccc;
   font-weight:300;
   background-color: #222;
 }
@@ -95,7 +95,7 @@ a {
 
 a small {
   font-size:11px;
-  color:#999999;
+  color:#cccccc;
   margin-top:-0.6em;
   display:block;
 }
@@ -133,12 +133,12 @@ th, td {
 }
 
 dt {
-  color:#999999;
+  color:#cccccc;
   font-weight:700;
 }
 
 th {
-  color:#999999;
+  color:#cccccc;
 }
 
 img {
@@ -182,7 +182,7 @@ img {
 }
 
 strong {
-  color:#777;
+  color:white;
   font-weight:700;
 }
 
@@ -199,7 +199,7 @@ strong {
 .sidebar ul a strong {
   font-size:14px;
   display:block;
-  color:#777;
+  color:#999999;
 }
 
 .resume {
