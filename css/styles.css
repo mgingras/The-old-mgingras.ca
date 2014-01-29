@@ -15,8 +15,8 @@ body {
 }
 
 .sidebar {
-  width: 200px;
-  height:620px;
+  width: 250px;
+  height:565px;
   float: left;
   position: fixed;
   overflow: auto;
@@ -30,7 +30,7 @@ body {
 
 .content {
   height:85%;
-  width: 660px;
+  width: 630px;
   float: right;
   padding-bottom: 50px;
   background-color: #111;
