@@ -7,7 +7,7 @@ categories: coding
 ####Check it out: [\[*synonym-izer*\]](http://www.synonym-izer.com/)
 #####*Takes what you wrote and says the same thing differently*
 
-<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="node.js" class="pict-prog-nodejs01 icon-2x"> </span>&nbsp;<span title="MongoDB" class="pict-dbs-mongodb icon-2x"> </span>&nbsp;<span title="JavaScript" class="pict-prog-js02 icon-2x"> </span>&nbsp;<span title="JQuery" class="pict-prog-jquery icon-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 icon-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 icon-2x"> </span></p>
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="Node.js" class="pict-prog-nodejs01 fa-2x"> </span>&nbsp;<span title="MongoDB" class="pict-dbs-mongodb fa-2x"> </span>&nbsp;<span title="JavaScript" class="pict-prog-js02 fa-2x"> </span>&nbsp;<span title="JQuery" class="pict-prog-jquery fa-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 fa-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 fa-2x"> </span></p>
 
 This is a program which takes inputted text and substitute words within it for their synonyms.   
 

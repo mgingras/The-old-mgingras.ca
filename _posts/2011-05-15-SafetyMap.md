@@ -6,7 +6,7 @@ categories: coding
 
 #####*Safety map simulation software that displays quickest rout to nearest exit for an area*
 
-<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="Java" class="pict-prog-java icon-2x"> </span>Java</p>
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="Java" class="pict-prog-java fa-2x"> </span>Java</p>
 
 
 
