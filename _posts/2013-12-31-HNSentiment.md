@@ -14,6 +14,8 @@ This porject was done over a few days of my Christmas '13 holidays, for the Iron
 
 <!-- abridge -->
 
+<object data=http://www.hn-sentiment.com width="100%" height="500px"> <embed src=http://www.hn-sentiment.com width="100%" height="500px"> </embed> <a href="http://www.hn-sentiment.com"www.hn-sentiment.com</a> </object>
+
 ###Technical Stuff
 ####This project is all open-sourced under the [The MIT License](https://github.com/mgingras/HN-Sentiment/blob/master/LICENSE)  and available [here](https://github.com/mgingras/HN-Sentiment)
 
