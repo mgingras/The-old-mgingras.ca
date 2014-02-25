@@ -10,28 +10,15 @@
     <a href="http://instagram.com/martinpgingras/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
     <a href="http://github.com/mgingras/" target="_blank"><i class="fa fa-github-square fa-lg"></i></a>
 
-    <form class="email-to slider closed form-inline" role="form" method="POST" action="//api.formspree.com/martin@mgingras.ca" style="width:90%;">
+    <form id="email" class="email-to slider closed form-inline" role="form" method="POST" action="//api.formspree.com/martin@mgingras.ca" style="width:90%;">
       <div class="input-group">
         <span class="input-group-btn">
           <button class="btn btn-default disabled send" type="submit">Send</button>
         </span>
         <input type="text"  name="_replyto" class="form-control email" placeholder="Your Email" style="font-size:12px;" onkeyup="email();">
       </div>
-      <textarea class="form-control message" rows="8" placeholder="Your message" style="width:100%;resize:none;font-size:12px;" onkeyup="email();"></textarea>
+      <textarea name="message" class="form-control message" form="email" rows="6" placeholder="Your message" style="width:100%;resize:none;font-size:12px;" onkeyup="email();"></textarea>
     </form>
-
-
-
-
-<!--
-      <div class="form-group">
-        <span class="input-group-addon"><button type="submit" class="btn btn-default">Send</button></span>
-        <input type="email" class="form-control" name="_replyto" placeholder="Your email" style="font-size:12px;">
-      </div>
-      <div class="form-group">
-        <textarea name="message" class="form-control" rows="8" placeholder="Your message" style="width:100%;resize:none;"></textarea>
-      </div>
-    </form> -->
   </p>
   <h2>About me</h2>
   <nav>

@@ -1,4 +1,4 @@
-// Google anal
+e// Google anal
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -31,9 +31,15 @@ function showEmail() {
 }
 
 function email() {
+  //Email pattern
+  var pattern = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+
   var message = $('.message')[0].value.length;
-  var email = $('.email')[0].value.length;
-  if (email > 0 && message > 0) {
+  var email = $('.email')[0].value;
+
+  var valid = (email.match(pattern) != null) ? true : false;
+
+  if (email.length > 0 && message > 0 && valid) {
     $('.send').removeClass('disabled');
   }else{
     $('.send').addClass('disabled');
