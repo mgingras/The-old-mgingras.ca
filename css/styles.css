@@ -16,7 +16,7 @@ body {
 
 .sidebar {
   width: 250px;
-  height:565px;
+  height:585px;
   float: left;
   position: fixed;
   overflow: auto;
@@ -61,6 +61,22 @@ body {
   border-radius: 6px;
   text-align: center;
   z-index: 1;
+}
+
+.email-to {
+  width:90%;
+  font-size:12px;
+}
+.slider {
+  overflow-y: hidden;
+  max-height: 215px; /* approximate max height */
+  transition-property: all;
+  transition-duration: .5s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.slider.closed {
+  max-height: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {

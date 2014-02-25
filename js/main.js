@@ -26,3 +26,16 @@ overflow:"hidden",width:a.width,height:a.height});b.css({overflow:"hidden",width
 b.bind("mouseup.slimscroll",function(a){y=!1;p();b.unbind(".slimscroll")});return!1}).bind("selectstart.slimscroll",function(a){a.stopPropagation();a.preventDefault();return!1});g.hover(function(){v()},function(){p()});c.hover(function(){x=!0},function(){x=!1});b.hover(function(){s=!0;v();p()},function(){s=!1;p()});b.bind("touchstart",function(a,b){a.originalEvent.touches.length&&(z=a.originalEvent.touches[0].pageY)});b.bind("touchmove",function(b){k||b.originalEvent.preventDefault();b.originalEvent.touches.length&&
 (m((z-b.originalEvent.touches[0].pageY)/a.touchScrollStep,!0),z=b.originalEvent.touches[0].pageY)});w();"bottom"===a.start?(c.css({top:b.outerHeight()-c.outerHeight()}),m(0,!0)):"top"!==a.start&&(m(f(a.start).position().top,null,!0),a.alwaysVisible||c.hide());C()}});return this}});jQuery.fn.extend({slimscroll:jQuery.fn.slimScroll})})(jQuery);
 
+function showEmail() {
+  $(".slider").toggleClass('closed');
+}
+
+function email() {
+  var message = $('.message')[0].value.length;
+  var email = $('.email')[0].value.length;
+  if (email > 0 && message > 0) {
+    $('.send').removeClass('disabled');
+  }else{
+    $('.send').addClass('disabled');
+  }
+}
