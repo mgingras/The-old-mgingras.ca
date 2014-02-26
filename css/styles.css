@@ -67,6 +67,7 @@ body {
   width:90%;
   font-size:12px;
 }
+
 .slider {
   overflow-y: hidden;
   max-height: 150px; /* approximate max height */
@@ -79,6 +80,9 @@ body {
   max-height: 0;
 }
 
+#sendEmail {
+  cursor: pointer;
+}
 h1, h2, h3, h4, h5, h6 {
   color:#33CC6A;
   margin:0 0 20px;

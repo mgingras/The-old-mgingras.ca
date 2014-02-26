@@ -4,7 +4,7 @@
   <h3>Software Developer</h3>
   <p>Reach me via:&nbsp;
     <!-- <a href="mailto:martin@mgingras.ca?Subject=Your%20Website" title="Email Me!"><i class="fa fa-envelope fa-lg"></i></a> -->
-    <a title="Email Me!" href="javascript:showEmail();"><i class="fa fa-envelope fa-lg"></i></a>
+    <a id="sendEmail" title="Email Me!"><i class="fa fa-envelope fa-lg"></i></a>
     <a href="http://www.linkedin.com/in/martinpgingras/" target="_blank"><i class="fa fa-linkedin-square fa-lg"></i></a>
     <a href="http://twitter.com/martin_gingras/" target="_blank"><i class="fa fa-twitter-square fa-lg"></i></a>
     <a href="http://instagram.com/martinpgingras/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
@@ -15,9 +15,9 @@
         <span class="input-group-btn">
           <button class="btn btn-default disabled send" type="submit">Send</button>
         </span>
-        <input type="text"  name="_replyto" class="form-control email" placeholder="Your Email" style="font-size:12px;" onkeyup="email();">
+        <input type="text"  name="_replyto" class="form-control email in" placeholder="Your Email" style="font-size:12px;">
       </div>
-      <textarea name="message" class="form-control message" form="email" rows="6" placeholder="Your message" style="width:100%;resize:none;font-size:12px;" onkeyup="email();"></textarea>
+      <textarea name="message" class="form-control message in" form="email" rows="6" placeholder="Your message" style="width:100%;resize:none;font-size:12px;"></textarea>
     </form>
   </p>
   <h2>About me</h2>
