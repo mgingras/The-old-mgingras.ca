@@ -36,7 +36,7 @@ $(function() {
 
   $('.in').keyup(function() {
     //Email pattern
-    var pattern = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+    var pattern = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3,4}$/;
 
     var message = $('.message')[0].value.length;
     var email = $('.email')[0].value;
