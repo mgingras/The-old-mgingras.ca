@@ -55,14 +55,13 @@ library for Java to allow for a prettier UI.
 Here is a screenshot of a fresh game. Once you press start a timer is started and there is a bonus for finishing
 quickly.   
 
-<a href="http://www.flickr.com/photos/97299680@N08/9011402100/" title="stinkyNewGame by martingingras, on Flickr"><img src="http://farm4.staticflickr.com/3704/9011402100_835bd6e96f_z.jpg" width="599" height="600" alt="stinkyNewGame"></a>   
+
+<div style="width:100%;height:auto;margin-bottom:10px;"><img src="/img/shitsweeper_start.jpg" style="width:100%;height:auto;" alt="Shitsweeper Start"></div>
+
 
 This is a screenshot of a finished game. As you can see, once you found all of the un-mined spaces the game is
 ended and the board is revealed and you are given the option to play again.
 
-
-
-<a href="http://www.flickr.com/photos/97299680@N08/9011402022/" title="stinkyWonGame by martingingras, on Flickr"><img src="http://farm8.staticflickr.com/7343/9011402022_d06fafba00_z.jpg" width="603" height="596" alt="stinkyWonGame"></a>   
-
+<div style="width:100%;height:auto;margin-bottom:10px;"><img src="/img/shitsweeper_over.jpg" style="width:100%;height:auto;" alt="Shitsweeper Start"></div>
 
 See the [code...](https://github.com/mgingras/shitsweeper-game-swing)
