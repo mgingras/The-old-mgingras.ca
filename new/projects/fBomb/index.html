@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta charset="utf-8">
+<meta name="author" content="Martin Gingras">
+<meta name="description" content="The personal website of Martin Gingras, computer science student at Carleton University.">
+
+<meta name="keywords" content="Martin,Gingras,Personal,Resume,Software,Programming,Programmer,Web Development,Developer,Canada,Carleton,University,Student,Engineering,Web,Ottawa">
+<meta charset="utf-8">
+
+<!-- Apple Shit -->
+<meta name="apple-mobile-web-app-capable" content="yes" >
+<meta name="apple-mobile-web-app-status-bar-style" content="default" >
+
+<link rel="apple-touch-icon" href="/img/icon.png" >
+<link rel="apple-touch-icon-precomposed" href="/img/icon.png" >
+
+<!-- standard viewport tag to set the viewport to the device's width
+, Android 2.3 devices need this so 100% width works properly and
+doesn't allow children to blow up the viewport width-->
+<meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" >
+<!-- width=device-width causes the iPhone 5 to letterbox the app, so
+we want to exclude it for iPhone 5 to allow full screen apps -->
+<meta name="viewport" id="vp6" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" >
+
+<!-- Open Graph Shit -->
+<meta property="og:title" content="Martin Gingras' Personal Website">
+<meta property="og:image" content="http://mgingras.ca/img/icon.png">
+<meta property="og:url" content="http://mgingras.ca/">
+<meta property="og:description" content="I am a CS student at Carleton University in Ottawa. This site is to share my projects and experiences and the struggles and successes that surround them.">
+
+<!-- For IE -->
+<link rel="shortcut icon" href="/images/favicon/favicon.ico" type="image/x-icon">
+
+<!-- For Everything else... -->
+<link rel="icon" href="/images/favicon/favicon.ico" type="image/x-icon">
+
+<!-- Bootstrap core CSS -->
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- PACE.JS -->
+<script src="/js/lib/pace.min.js"></script>
+
+<!-- Font-Awesome -->
+<link href="/css/lib/font-awesome.min.css" rel="stylesheet">
+<!-- Pictonic -->
+<link href="/css/lib/pictonic.min.css" rel="stylesheet">
+
+<!-- STYLE CSS -->
+<link href="/css/styles.css" rel="stylesheet">
+
+<!-- Color Scheme CSS -->
+<link href="/css/martin.css" rel="stylesheet" id="clscheme">
+
+
+<title>Martin Gingras - fBomb.co</title>
+
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <script src="js/respond.min.js"></script>
+<![endif]-->
+<body data-spy="scroll" data-target="#navbar">
+  <div id="lazyload"></div>
+  <!--BEGIN Navbar -->
+<nav id="navbars" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="wrapper">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <img src="/images/logo.png" class="logo" alt="logo">Martin Gingras</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class=""><a href="/#home-slide">HOME</a>
+                </li>
+                <li class=""><a href="/#howto">ME</a>
+                </li>
+                <li class=""><a href="/#portfolio">PROJECTS</a>
+                </li>
+                <li class=""><a href="/#about">ABOUT</a>
+                </li>
+                <li class=""><a href="/#contact">CONTACT</a>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">STUFF <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <!-- <li><a href="/blog">Blog</a></li> -->
+                        <li><a href="/projects">Projects</a></li>
+                        <!-- <li><a href="/pictures">Pictures</a></li> -->
+                    </ul>
+                </li>
+                <!-- <li><a class="nav-spacer">&nbsp;</a> -->
+                <!-- </li> -->
+                <li><a href="http://github.com/mgingras" target="_blank"><i class="icon-github"></i></a>
+                </li>
+                <li><a href="http://twitter.com/martin_gingras" target="_blank"><i class="icon-twitter"></i></a>
+                </li>
+                <li><a href="mailto:martin@mgingras.ca?Subject=mgingras.ca"><i class="icon-envelope"></i></a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /wrapper -->
+</nav>
+<!-- END Navbar
+<!-- BEGIN Header -->
+    <section class="blog-header">
+        <!--<div class="blog-header-color"></div>-->
+        <div class="blog-header-content parallaxize" style="background:url('/images/blog-post-img.jpg') 50% 0 repeat-x fixed;">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="blog-post-header-title">
+                                <h1>fBomb.co.</h1>
+                                <h2 class="blog-post-date">October, 2013</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END Header -->
+    <!-- BEGIN Post -->
+    <section class="post-wrapper">
+        <div class="container">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="authorpic">
+                            <div class="hexaout">
+                                <div class="hexapic"></div>
+                                <img class="hexapic" src='/images/me.png' alt="profpic" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Start Post -->
+                <div class="row">
+                    <div class="blog-post-article">
+                        <article>
+                          <div class="col-lg-12">
+                            <h4>Check it out: <a href="http://www.fbomb.co">FBomb.co</a></h4>
+
+<h5><em>See where in the world the &quot;F Bomb&quot; is being dropped on Twitter</em></h5>
+
+<h5>Retweets on Twitter <a href="http://twitter.com/FBomb_co">@Fbomb_co</a></h5>
+
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="Node.js" class="pict-prog-nodejs01 fa-2x"> </span>&nbsp;<span title="CoffeeScript" class="pict-prog-coffeescr fa-2x"> </span>&nbsp;<span title="JQuery" class="pict-prog-jquery fa-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 fa-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 fa-2x"> </span></p>
+
+<p>This is an interactive map that shows where people are using the F-word on Twitter.   </p>
+
+<p>I created this application to expand my development skills and to tinker with some public APIs.   </p>
+
+<!-- abridge -->
+
+<h3>Live Demo:</h3>
+
+<p><object data=http://www.fbomb.co width="100%" height="600px"> <embed src=http://www.fbomb.co width="100%" height="600px"> </embed> <a href="http://www.fbomb.co">www.fbomb.co</a> </object></p>
+
+<h3>Inspiration</h3>
+
+<p>My inspiration for this application actually came from a discussion I had with two colleagues of mine while doing co-op at BlackBerry, <a href="https://ryanseys.com/">Ryan Seys</a> and Elliott Ro. We were talking about how people misuse and abuse the english language. As the conversation devolved swearing was brought up. In particular we talked about how swearing can completely undermine ones argument. Earlier that day we had been talking about the personal projects we were working and, somehow at this point we circled back to that topic. From there our conversation wound it&#39;s way to how it’d be neat to map where people swear. Within a few minutes and iterations of ideas the concept for the app was born.</p>
+
+<h3>Launch</h3>
+
+<p>It took me a few months to get around to coding this application, I originally wrote using Ruby on Rails however ended up re-writing it using CoffeeScript on Node.JS. I wrote it over the weekend of October 19th - 20th and published it that Sunday.</p>
+
+<h3>Reaction</h3>
+
+<p>Overall this app has gotten a positive reaction, some people have different ideas of how it should have been implemented (other languages, customizable, etc.). However, I believe that many of those changes would detract from the actual intent of the app.   </p>
+
+<p>I am surprised by how wide spread the attention has been for for this website, however I agree that it is pretty entertaining and, in my humble opinion worth the 30-60 seconds it generally receives.</p>
+
+<h3>Privacy</h3>
+
+<p>In the world we live in today I understand how this app could be potentially frightening, particularly because of how it clearly demonstrates how simple it is to pinpoint individuals solely based on their message. These fears are justified, however my app does not attempt to exploit/invade anyone&#39;s privacy. </p>
+
+<p>The way I designed my site was such that it has no persistent data. On the server itself the tweets are cached for about a max of 10 seconds then erased. Re-tweets on the site&#39;s Twitter feed will disappear if the original post is deleted. Lastly, client side data is only kept in the view, the objects passed back are periodically cleared as well.</p>
+
+<h3>Technical Stuff</h3>
+
+<h4>This project is all open-sourced under the <a href="https://github.com/mgingras/fBomb/blob/master/LICENSE">The MIT License</a>  and available <a href="https://github.com/mgingras/fBomb">here</a></h4>
+
+<p>This site was originally written Ruby on Rails, see the <a href="http://github.com/mgingras/fBomb-rails">code</a>. However as I publishing it I started to have issues
+ with the tweet stream gem I was using. Since I didn&#39;t really need any of the benefits of using Rails for this project, I opted to re-write the server in a framework I&#39;m more comfortable with.</p>
+
+<p>I did my initial re-write using JS on Node.js. This didn&#39;t take too long since I already had much of the logic figured out from my work with rails. Therefore, I decided to push myself and attempt to re-write it in CoffeeScript.</p>
+
+<p>This experimentation ended up working out really well. The syntax for CoffeeScript is quick to learn and much more fun to write that vanilla JavaScript. If you are interested, the original server (in JS) is still in my Github for this project, in addition to the CoffeeScript.</p>
+
+<p>Please feel free to peruse my code and check out the site, if you have any suggestions I would love to hear it.</p>
+
+<p>I have made this project as simple as possible to clone by open-sourcing the code and providing instructions. See it here:  <a href="http://github.com/mgingras/fBomb">http://github.com/mgingras/fBomb</a></p>
+
+<p>The actual site has drifted away from the original concept, and not all of these could, or should be in both sources (see change-log below). The current(ish) code is still all available <a href="https://github.com/mgingras/Fbomb_co">here</a> - And of course, if you haven&#39;t seen it, check out the <a href="http://www.Fbomb.co">site</a>  </p>
+
+<p>Changes since initial completion:   </p>
+
+<ul>
+<li><p>I added code to capture tweets tagged with a &#39;Place&#39; that will hopefully cause more tweets to appear. Most of these tweets use a bounding box, their location is mapped at the center of that box.</p></li>
+<li><p>Now using the coordinates tag instead of the geo tag as the primary mapping coordinate, since the geo tag is being deprecated.   </p></li>
+<li><p>I have added a Twitter account, <a href="http://twitter.com/FBomb_co">@Fbomb_co</a>, which will sporadically re-tweet &quot;F-Bombs&quot;.</p></li>
+<li><p>Added subdomain <a href="http://shtstorm.fbomb.co">shtstorm</a></p></li>
+<li><p>Switched client/server communication to use WebSockets instead of GET(s) on an interval.</p></li>
+<li><p>Cleaned up the UI and made pop-up more informative</p></li>
+</ul>
+
+<p>Send me an <a href="mailto:martin@mgingras.ca?Subject=fBomb%20Suggestion" title="FBomb idea yo!">email</a> with any suggestions!!</p>
+
+<h3>Articles</h3>
+
+<p><a href="http://newsfeed.time.com/2013/11/11/this-map-shows-you-where-people-are-dropping-f-bombs-right-now/">TIME</a> | <a href="http://www.spiegel.de/netzwelt/web/angeklickt-twitter-karte-zeigt-f-bomben-a-932875.html">SPIEGEL ONLINE</a></p>
+
+<p><a href="http://news.cnet.com/8301-17938_105-57611616-1/f-bombs-away-twitter-map-tracks-curses-in-real-time/">CNET</a> | <a href="http://news.ycombinator.com/item?id=6668571">Hacker News</a></p>
+
+<p><a href="http://www.washingtonpost.com/blogs/the-switch/wp/2013/11/06/where-people-swear-most-on-twitter-in-one-interactive-map/">The Washington Post</a> | <a href="http://www.latimes.com/nation/shareitnow/la-sh-f-bomb-map-twitter-20131106,0,2639927.story">LA Times</a></p>
+
+<p><a href="http://www.vancouversun.com/technology/Carleton+University+student+creates+website+that+tracks+fbomb/9206564/story.html">The Vancouver Sun</a> | <a href="http://topnews.ae/content/219207-carleton-university-student-creates-website-which-tracks-use-f-bomb-twitter">TopNews Arab Emirates</a></p>
+
+<p><a href="http://www.dailymail.co.uk/news/article-2489261/F-Bomb-new-site-maps-world-people-Tweet-F-word-Twitter.html">Mail Online</a> | <a href="http://gizmodo.com/this-map-shows-where-people-are-dropping-the-f-bomb-on-1460747765">Gizmodo</a></p>
+
+<p><a href="http://nypost.com/2013/11/06/follow-real-time-f-bomb-tweets-from-around-the-world/">New York Post</a> | <a href="http://gigazine.net/news/20131106-fbomb/">Gigazine</a></p>
+
+<p><a href="http://www.nbcnews.com/technology/untapped-resource-fbomb-co-harvests-profanity-around-globe-2D11577349">NBC</a> | <a href="http://www.nydailynews.com/news/national/website-maps-f-bombs-dropped-article-1.1509565">NY Daily News</a></p>
+
+<p><a href="http://www.ottawacitizen.com/news/Carleton+student+proves+bomb+among+builders/9191803/story.html">The Ottawa Citizen</a> | <a href="http://www.charlatan.ca/2013/11/carleton-student-launches-f-bomb-tweet-tracker/">The Charlatan</a></p>
+
+<p><a href="http://www.kurir-info.rs/f-bomba-mapa-sveta-ko-napise-fuck-na-tviteru-vidi-ga-cela-planeta-clanak-1076189">Kurir</a> | <a href="http://www.complexmag.ca/city-guide/2013/11/map-shows-where-people-drop-f-bomb-the-most-on-twitter">Complex: City Guide</a></p>
+
+<p><a href="http://www.complexmag.ca/tech/2013/11/f-bomb-website-twitter-tweets">Complex: Tech</a> | <a href="http://www.iefimerida.gr/news/129464/%CE%B4%CE%B9%CE%B1%CE%B4%CF%81%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CF%8C%CF%82-%CF%87%CE%AC%CF%81%CF%84%CE%B7%CF%82-%CE%B4%CE%B5%CE%AF%CF%87%CE%BD%CE%B5%CE%B9-%CE%BA%CE%AC%CE%B8%CE%B5-%CF%80%CF%8C%CF%84%CE%B5-%CE%B2%CF%81%CE%AF%CE%B6%CE%BF%CF%85%CE%BD-%CE%BF%CE%B9-%CF%87%CF%81%CE%AE%CF%83%CF%84%CE%B5%CF%82-%CF%84%CE%BF%CF%85-twitter-%CF%80%CE%BF%CE%B9%CE%B5%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BF%CE%B9-%C2%AB%CF%80%CF%81%CF%89">iefinmerida</a></p>
+
+<p><a href="http://indiatoday.intoday.in/story/twitter-f-bomb-interactive-map/1/321985.html">India Today</a> | <a href="http://wallstreetinsanity.com/this-site-tracks-where-in-the-world-the-f-bomb-is-being-used-on-twitter-in-real-time/">Wall Street Insanity</a></p>
+
+<p><a href="http://www.geekosystem.com/look-at-all-the-fs/">GeekOSystem</a> | <a href="http://www.uproxx.com/technology/2013/11/f-bomb-map-shows-every-fk-given-twitter-real-time/">Uproxx</a></p>
+
+<p><a href="http://www.24sata.rs/vesti/svet/vest/interaktivna-mapa-ko-opsuje-na-tviteru-vidi-ga-ceo-svet/112853.phtml">24sata</a> | <a href="http://laughingsquid.com/fbomb-a-real-time-interactive-map-of-swearing-on-twitter/">Lauging Squid</a></p>
+
+<p><a href="http://muckrack.com/link/FpQG/where-are-twitter-users-dropping-the-f-bomb-new-map-shows-you">Muck Rack</a> | <a href="http://elitedaily.com/news/world/f-bomb-website-shows-world-people-tweeting-f-word/">Elite Daily</a></p>
+
+<p><a href="http://www.thinkdefence.co.uk/2013/11/mapping-f-bomb/">Think Defence</a> | <a href="http://googlemapsmania.blogspot.ca/2013/11/dropping-f-bomb-map.html">Google Maps Mania</a></p>
+
+<p><a href="http://m.timesofindia.com/tech/social-media/New-map-shows-where-Twitterati-is-dropping-the-f-bomb/articleshow/25438192.cms">The Times of India</a> | <a href="http://www.scotsman.com/news/odd/edinburgh-twitter-users-swear-less-than-glasgow-s-1-3180709">The Scotsman</a></p>
+
+<p><a href="http://www.brain-magazine.fr/article/page-pute/16394-De-la-grossi%C3%A8ret%C3%A9-sur-Twitter">brain magazine</a> | <a href="http://vidget.hu/web/11934-nezd-meg-hol-karomkodnak-eppen">VIDGET</a></p>
+
+<p><a href="http://www.dailydot.com/lifestyle/f-bomb-tracker-new-app/">The Daily Dot</a> | <a href="http://www.deadlinenews.co.uk/2013/11/08/f-bomb-website-pinpoints-scotlands-foul-mouthed-tweets/">deadline</a></p>
+
+<p><a href="http://www.thetimes.co.uk/tto/news/uk/scotland/article3917644.ece?CMP=OTH-gnws-standard-2013_11_09">The Times Scotland</a> | <a href="http://bachelor.ie/technology/curious-use-f-twitter-theres-site/20864">Bachelor</a></p>
+
+<p><a href="http://www.svd.se/kultur/kultursvepet-7-10_8701260.svd?sidan=5">SvD Kultur</a> | <a href="http://www.stara.fi/2013/11/09/kartta-paljastaa-some-kiroilut/">Stara</a></p>
+
+<p><a href="http://twittermania.nl/2013/11/waar-vallen-de-fbomb-tweets-realtime/">Twittermania</a> | <a href="http://www.ibtimes.com/whos-dropping-f-bomb-twitter-right-now-fbombco-map-plots-real-time-usage-location-watch-1458092">International Business Times</a></p>
+
+                          </div>
+                        </article>
+                      </div>
+                  </div>
+                  <!-- End Post -->
+              </div>
+          </div>
+<!--           <div class='img-circle' style='border:black 2px solid;margin-left:40px;width:40px;height:40px;position:relative'>
+            <a href="#navbar" style='font-size:50px;position:absolute;left:1px;top:-22px;'><i class="icon-angle-up"></i></a>
+          </div> -->
+
+    </section>
+    <!-- END Post -->
+    <footer class="blog-footer">
+        <div class="container">
+            <div class="wrapper">
+                <div class="footer-content">
+                    <p class="author-title">MADE WITH LOVE BY <a class="hovercolor" href="javascript:;">Martin Gingras</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="/js/lib/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/lib/smoothscroll.js"></script>
+  <script src="/js/lib/jquery.superslides.min.js"></script>
+  <script src="/js/lib/jquery.sudoslider.min.js"></script>
+  <script src="/js/lib/jquery.isotope.min.js"></script>
+  <script src="/js/lib/jquery.magnific-popup.min.js"></script>
+  <script src="/js/lib/jquery.parallax.js"></script>
+  <script src="/js/lib/jquery.simple-text-rotator.min.js"></script>
+  <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+  <script src="/js/lib/gmap3.min.js"></script>
+  <script src="/js/lib/jquery.inview.min.js"></script>
+  <script src="/js/lib/jquery.mixitup.min.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

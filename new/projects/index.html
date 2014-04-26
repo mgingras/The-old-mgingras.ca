@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta charset="utf-8">
+<meta name="author" content="Martin Gingras">
+<meta name="description" content="The personal website of Martin Gingras, computer science student at Carleton University.">
+
+<meta name="keywords" content="Martin,Gingras,Personal,Resume,Software,Programming,Programmer,Web Development,Developer,Canada,Carleton,University,Student,Engineering,Web,Ottawa">
+<meta charset="utf-8">
+
+<!-- Apple Shit -->
+<meta name="apple-mobile-web-app-capable" content="yes" >
+<meta name="apple-mobile-web-app-status-bar-style" content="default" >
+
+<link rel="apple-touch-icon" href="/img/icon.png" >
+<link rel="apple-touch-icon-precomposed" href="/img/icon.png" >
+
+<!-- standard viewport tag to set the viewport to the device's width
+, Android 2.3 devices need this so 100% width works properly and
+doesn't allow children to blow up the viewport width-->
+<meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" >
+<!-- width=device-width causes the iPhone 5 to letterbox the app, so
+we want to exclude it for iPhone 5 to allow full screen apps -->
+<meta name="viewport" id="vp6" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" >
+
+<!-- Open Graph Shit -->
+<meta property="og:title" content="Martin Gingras' Personal Website">
+<meta property="og:image" content="http://mgingras.ca/img/icon.png">
+<meta property="og:url" content="http://mgingras.ca/">
+<meta property="og:description" content="I am a CS student at Carleton University in Ottawa. This site is to share my projects and experiences and the struggles and successes that surround them.">
+
+<!-- For IE -->
+<link rel="shortcut icon" href="/images/favicon/favicon.ico" type="image/x-icon">
+
+<!-- For Everything else... -->
+<link rel="icon" href="/images/favicon/favicon.ico" type="image/x-icon">
+
+<!-- Bootstrap core CSS -->
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- PACE.JS -->
+<script src="/js/lib/pace.min.js"></script>
+
+<!-- Font-Awesome -->
+<link href="/css/lib/font-awesome.min.css" rel="stylesheet">
+<!-- Pictonic -->
+<link href="/css/lib/pictonic.min.css" rel="stylesheet">
+
+<!-- STYLE CSS -->
+<link href="/css/styles.css" rel="stylesheet">
+
+<!-- Color Scheme CSS -->
+<link href="/css/martin.css" rel="stylesheet" id="clscheme">
+
+
+<title>Martin Gingras - Projects</title>
+
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <script src="js/respond.min.js"></script>
+<![endif]-->
+<body data-spy="scroll" data-target="#navbar">
+  <div id="lazyload"></div>
+  <!--BEGIN Navbar -->
+<nav id="navbars" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="wrapper">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <img src="/images/logo.png" class="logo" alt="logo">Martin Gingras</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class=""><a href="/#home-slide">HOME</a>
+                </li>
+                <li class=""><a href="/#howto">ME</a>
+                </li>
+                <li class=""><a href="/#portfolio">PROJECTS</a>
+                </li>
+                <li class=""><a href="/#about">ABOUT</a>
+                </li>
+                <li class=""><a href="/#contact">CONTACT</a>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">STUFF <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <!-- <li><a href="/blog">Blog</a></li> -->
+                        <li><a href="/projects">Projects</a></li>
+                        <!-- <li><a href="/pictures">Pictures</a></li> -->
+                    </ul>
+                </li>
+                <!-- <li><a class="nav-spacer">&nbsp;</a> -->
+                <!-- </li> -->
+                <li><a href="http://github.com/mgingras" target="_blank"><i class="icon-github"></i></a>
+                </li>
+                <li><a href="http://twitter.com/martin_gingras" target="_blank"><i class="icon-twitter"></i></a>
+                </li>
+                <li><a href="mailto:martin@mgingras.ca?Subject=mgingras.ca"><i class="icon-envelope"></i></a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /wrapper -->
+</nav>
+<!-- END Navbar
+  <!-- BEGIN Header -->
+  <section class="blog-header">
+      <div class="blog-header-color"></div>
+      <div class="blog-header-content parallaxize">
+          <div class="container">
+              <div class="blog-header-wrapper">
+                  <div class="blog-header-title">
+                      <h1>Projects.</h1>
+                      <h2 class="blog-description">Here is a list of some of the projects that I have worked on recently</h2>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- END Header -->
+
+  <div class="post-wrapper">
+  <div class='container'>
+    <div class="wrapper">
+      <div class="row">
+        
+
+        <article class="post">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="post-title"><a class="hovercolor" href="/projects/HNSentiment">HN Sentiment</a>
+                        </h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <time class="post_date" datetime="2013-10-18">
+                            December, 2013
+                        </time>
+                    </div>
+                </div>
+                <div class="post_excerpt">
+                    <h4>Check it out: <a href="http://hn-sentiment.com">HN Sentiment</a></h4>
+
+<p><em style='color:red;'>Temporarily down due to the shudown of an api dependency</em></p>
+
+<h5><em>Web application that allows users to anylize the sentiment of the Hacker News community towards a particular topic</em></h5>
+
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="Node.js" class="pict-prog-nodejs01 fa-2x"> </span>&nbsp;<span title="CoffeeScript" class="pict-prog-coffeescr fa-2x"> </span>&nbsp;<span title="JQuery" class="pict-prog-jquery fa-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 fa-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 fa-2x"> </span></p>
+
+<p>I completed this project over a few days of my Christmas &#39;13 holidays for the Iron.io hackathon (where it placed <a href="http://blog.iron.io/2014/01/holiday-hack-winners.html">2nd</a>). The intent is to generalize the way the entire Hacker News community feels towards a particular topic based on the sentiment in their comments on a post containing the searched keyword.</p>
+
+ <a href="/projects/HNSentiment" class="hovercolor readmore">Read More</a>
+                </div>
+            </div>
+        </article>
+      
+
+        <article class="post">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="post-title"><a class="hovercolor" href="/projects/tweetmap">tweetmap.co</a>
+                        </h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <time class="post_date" datetime="2013-10-18">
+                            November, 2013
+                        </time>
+                    </div>
+                </div>
+                <div class="post_excerpt">
+                    <h4>Check it out: <a href="http://www.tweetmap.co">TweetMap.co</a></h4>
+
+<h5>*Interactive map to see where people are saying whatin the world people are saying *</h5>
+
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="Node.js" class="pict-prog-nodejs01 fa-2x"> </span>&nbsp;<span title="CoffeeScript" class="pict-prog-coffeescr fa-2x"> </span>&nbsp;<span title="JQuery" class="pict-prog-jquery fa-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 fa-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 fa-2x"> </span></p>
+
+<p>This project is the logical iteration on my last venture, <a href="http://www.fbomb.co">Fbomb.co</a>, it adds the capability to chose which words you&#39;d like to see tracked for yoursef.</p>
+
+ <a href="/projects/tweetmap" class="hovercolor readmore">Read More</a>
+                </div>
+            </div>
+        </article>
+      
+
+        <article class="post">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="post-title"><a class="hovercolor" href="/projects/fBomb">fBomb.co</a>
+                        </h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <time class="post_date" datetime="2013-10-18">
+                            October, 2013
+                        </time>
+                    </div>
+                </div>
+                <div class="post_excerpt">
+                    <h4>Check it out: <a href="http://www.fbomb.co">FBomb.co</a></h4>
+
+<h5><em>See where in the world the &quot;F Bomb&quot; is being dropped on Twitter</em></h5>
+
+<h5>Retweets on Twitter <a href="http://twitter.com/FBomb_co">@Fbomb_co</a></h5>
+
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="Node.js" class="pict-prog-nodejs01 fa-2x"> </span>&nbsp;<span title="CoffeeScript" class="pict-prog-coffeescr fa-2x"> </span>&nbsp;<span title="JQuery" class="pict-prog-jquery fa-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 fa-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 fa-2x"> </span></p>
+
+<p>This is an interactive map that shows where people are using the F-word on Twitter.   </p>
+
+<p>I created this application to expand my development skills and to tinker with some public APIs.   </p>
+
+ <a href="/projects/fBomb" class="hovercolor readmore">Read More</a>
+                </div>
+            </div>
+        </article>
+      
+
+        <article class="post">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="post-title"><a class="hovercolor" href="/projects/just1thing">just1thing.ca</a>
+                        </h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <time class="post_date" datetime="2013-10-18">
+                            October, 2013
+                        </time>
+                    </div>
+                </div>
+                <div class="post_excerpt">
+                    <h4>Check it out: <a href="http://www.just1thing.ca">just1thing.ca</a></h4>
+
+<h5><em>Promoting mental health and encouraging small changes individuals can do to improve their own</em></h5>
+
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="JavaScript" class="pict-prog-js02 fa-2x"> </span>&nbsp;<span title="jquery" class="pict-prog-jquery fa-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 fa-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 fa-2x"> </span></p>
+
+<p>I created this site, using Jekyll and Twitter Bootstrap, as the focal point for a potential neuroscience campaign. The purpose of this campaign is to promote mental health awareness and to suggest small changes that individuals could accomplish that would contribute to improving their own mental health.</p>
+
+ <a href="/projects/just1thing" class="hovercolor readmore">Read More</a>
+                </div>
+            </div>
+        </article>
+      
+
+        <article class="post">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="post-title"><a class="hovercolor" href="/projects/Synonymizer">Synonymizer</a>
+                        </h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <time class="post_date" datetime="2013-10-18">
+                            April, 2013
+                        </time>
+                    </div>
+                </div>
+                <div class="post_excerpt">
+                    <h4>Check it out: <a href="http://www.synonym-izer.com/">[<em>synonym-izer</em>]</a></h4>
+
+<h5><em>Takes what you wrote and says the same thing differently</em></h5>
+
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="Node.js" class="pict-prog-nodejs01 fa-2x"> </span>&nbsp;<span title="MongoDB" class="pict-dbs-mongodb fa-2x"> </span>&nbsp;<span title="JavaScript" class="pict-prog-js02 fa-2x"> </span>&nbsp;<span title="JQuery" class="pict-prog-jquery fa-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 fa-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 fa-2x"> </span></p>
+
+<p>This is a program which takes inputted text and substitute words within it for their synonyms.   </p>
+
+<p>I have recently taken a keen interest in web development and am looking to hone my skills in it. I have heard very good things about NodeJS and as such have decided to pursue my interest in it. What particularly appeals to me about node is the simplicity of creating non-blocking code and writing both the front end and back end in JavaScript.    </p>
+
+ <a href="/projects/Synonymizer" class="hovercolor readmore">Read More</a>
+                </div>
+            </div>
+        </article>
+      
+
+        <article class="post">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="post-title"><a class="hovercolor" href="/projects/mgingras.ca">mgingras.ca</a>
+                        </h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <time class="post_date" datetime="2013-10-18">
+                            March, 2013
+                        </time>
+                    </div>
+                </div>
+                <div class="post_excerpt">
+                    <h4>This site!!</h4>
+
+<h5><em>My personal website for sharing my projects, insights, and experiences</em></h5>
+
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="JavaScript" class="pict-prog-js02 fa-2x"> </span>&nbsp;<span title="jquery" class="pict-prog-jquery fa-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 fa-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 fa-2x"> </span></p>
+
+<p>This site was created using Jekyll and is hosted on GitHub Pages. I had a great experience with both Jekyll and GitHub. I learnt a few neat things in my experience making this site that will help me moving forward.</p>
+
+ <a href="/projects/mgingras.ca" class="hovercolor readmore">Read More</a>
+                </div>
+            </div>
+        </article>
+      
+
+        <article class="post">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="post-title"><a class="hovercolor" href="/projects/CanvasPrinting">Canvas-Printing</a>
+                        </h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <time class="post_date" datetime="2013-10-18">
+                            
+                        </time>
+                    </div>
+                </div>
+                <div class="post_excerpt">
+                    <h4>Check it out: <a href="http://mgprinting.herokuapp.com/">mgprinting</a></h4>
+
+<h5><em>A simple photo gallery/print ordering proof of concept</em></h5>
+
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="PHP" class="pict-prog-php02 fa-2x"> </span>&nbsp;<span title="MySQL" class="pict-dbs-mysql icon-3x"> </span>&nbsp;<span title="JavaScript" class="pict-prog-js02 fa-2x"> </span>&nbsp;<span title="HTML5" class="pict-html5-01 fa-2x"> </span>&nbsp;<span title="CSS3" class="pict-css3-01 fa-2x"> </span></p>
+
+<p>This is a basic mock up of a potential web commerce website written with HTML, CSS, and modest JS with a PHP back end communicating with a MySQL database.</p>
+
+ <a href="/projects/CanvasPrinting" class="hovercolor readmore">Read More</a>
+                </div>
+            </div>
+        </article>
+      
+
+        <article class="post">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="post-title"><a class="hovercolor" href="/projects/probe">probe</a>
+                        </h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <time class="post_date" datetime="2013-10-18">
+                            
+                        </time>
+                    </div>
+                </div>
+                <div class="post_excerpt">
+                    <h5><em>A TCP/IP game modeled after the parlor game <a href="probe">http://en.wikipedia.org/wiki/Probe<em>(parlor</em>game)</a></em></h5>
+
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="C" class="pict-prog-c fa-2x"></span></p>
+
+<p>A game played over TCP/IP sockets where players take turns guessing each other&#39;s word. Once the game has started
+interrupts are blocked by the game until there is a winner. </p>
+
+ <a href="/projects/probe" class="hovercolor readmore">Read More</a>
+                </div>
+            </div>
+        </article>
+      
+
+        <article class="post">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="post-title"><a class="hovercolor" href="/projects/TortAndHare">Tortoise and Hare Race Simulation</a>
+                        </h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <time class="post_date" datetime="2013-10-18">
+                            
+                        </time>
+                    </div>
+                </div>
+                <div class="post_excerpt">
+                    <h5><em>A simulation of the age old tale - The Tortoise and the Hare</em></h5>
+
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="C++" class="pict-prog-cplusplus icon-3x"></span></p>
+
+<p>This project is split out to follow the MVC principles and is wholly written in C++ with the view rendered using the Curses C++ {libraryexcerpt_separator}.</p>
+
+ <a href="/projects/TortAndHare" class="hovercolor readmore">Read More</a>
+                </div>
+            </div>
+        </article>
+      
+
+        <article class="post">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="post-title"><a class="hovercolor" href="/projects/ASM">ASM Bitstream Converter</a>
+                        </h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <time class="post_date" datetime="2013-10-18">
+                            
+                        </time>
+                    </div>
+                </div>
+                <div class="post_excerpt">
+                    <h5><em>An assembly program that emulates a transmission over IP, packing up the bits and unpacking them and displaying them as ASCII</em></h5>
+
+<p>*<em>Built using: *</em>&nbsp;<code>Pentium Assembly Language (IA-32)</code></p>
+
+<p>Program that takes a bitstream, packages it up and simulates transmitting it over IP then unpacks it and interprets the message.</p>
+
+ <a href="/projects/ASM" class="hovercolor readmore">Read More</a>
+                </div>
+            </div>
+        </article>
+      
+
+        <article class="post">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="post-title"><a class="hovercolor" href="/projects/chess">Java Chess App</a>
+                        </h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <time class="post_date" datetime="2013-10-18">
+                            
+                        </time>
+                    </div>
+                </div>
+                <div class="post_excerpt">
+                    <h5><em>A simple chess app</em></h5>
+
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="Java" class="pict-prog-java fa-2x"> </span>Java</p>
+
+<p>I created this little project in my spare time the summer after first year to reinforce some of the lessons that I&#39;d learnt at the time, particularly inheritance.   </p>
+
+ <a href="/projects/chess" class="hovercolor readmore">Read More</a>
+                </div>
+            </div>
+        </article>
+      
+
+        <article class="post">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="post-title"><a class="hovercolor" href="/projects/SafetyMap">Safety Map</a>
+                        </h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <time class="post_date" datetime="2013-10-18">
+                            
+                        </time>
+                    </div>
+                </div>
+                <div class="post_excerpt">
+                    <h5><em>Safety map simulation software that displays quickest rout to nearest exit for an area</em></h5>
+
+<p><strong>Built using:</strong>&nbsp;&nbsp;<span title="Java" class="pict-prog-java fa-2x"> </span>Java</p>
+
+<p>An application that I build that lets you create a simple floor plan and define exits, and then will
+recursively track the nearest exit.</p>
+
+ <a href="/projects/SafetyMap" class="hovercolor readmore">Read More</a>
+                </div>
+            </div>
+        </article>
+      
+
+        <article class="post">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="post-title"><a class="hovercolor" href="/projects/ShitSweeper">Shitsweeper</a>
+                        </h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <time class="post_date" datetime="2013-10-18">
+                            
+                        </time>
+                    </div>
+                </div>
+                <div class="post_excerpt">
+                    <h5><em>A twist on the classic game, minesweeper, where the consequences for an incorrect selection are a bit more vile</em></h5>
+
+<p style='font-family: "pictonic";'><strong>Built using:</strong>&nbsp;&nbsp;<span title="Java" class="pict-prog-java fa-2x"> </span>Java</p>
+
+<p>This application is a quick and dirty mock up of the age old game of minesweeper, with the incongruous twist
+that an incorrect choice will land you in a pile of s#it.</p>
+
+ <a href="/projects/ShitSweeper" class="hovercolor readmore">Read More</a>
+                </div>
+            </div>
+        </article>
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="/js/lib/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/lib/smoothscroll.js"></script>
+  <script src="/js/lib/jquery.superslides.min.js"></script>
+  <script src="/js/lib/jquery.sudoslider.min.js"></script>
+  <script src="/js/lib/jquery.isotope.min.js"></script>
+  <script src="/js/lib/jquery.magnific-popup.min.js"></script>
+  <script src="/js/lib/jquery.parallax.js"></script>
+  <script src="/js/lib/jquery.simple-text-rotator.min.js"></script>
+  <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+  <script src="/js/lib/gmap3.min.js"></script>
+  <script src="/js/lib/jquery.inview.min.js"></script>
+  <script src="/js/lib/jquery.mixitup.min.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

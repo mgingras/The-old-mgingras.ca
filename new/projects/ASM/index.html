@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta charset="utf-8">
+<meta name="author" content="Martin Gingras">
+<meta name="description" content="The personal website of Martin Gingras, computer science student at Carleton University.">
+
+<meta name="keywords" content="Martin,Gingras,Personal,Resume,Software,Programming,Programmer,Web Development,Developer,Canada,Carleton,University,Student,Engineering,Web,Ottawa">
+<meta charset="utf-8">
+
+<!-- Apple Shit -->
+<meta name="apple-mobile-web-app-capable" content="yes" >
+<meta name="apple-mobile-web-app-status-bar-style" content="default" >
+
+<link rel="apple-touch-icon" href="/img/icon.png" >
+<link rel="apple-touch-icon-precomposed" href="/img/icon.png" >
+
+<!-- standard viewport tag to set the viewport to the device's width
+, Android 2.3 devices need this so 100% width works properly and
+doesn't allow children to blow up the viewport width-->
+<meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" >
+<!-- width=device-width causes the iPhone 5 to letterbox the app, so
+we want to exclude it for iPhone 5 to allow full screen apps -->
+<meta name="viewport" id="vp6" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" >
+
+<!-- Open Graph Shit -->
+<meta property="og:title" content="Martin Gingras' Personal Website">
+<meta property="og:image" content="http://mgingras.ca/img/icon.png">
+<meta property="og:url" content="http://mgingras.ca/">
+<meta property="og:description" content="I am a CS student at Carleton University in Ottawa. This site is to share my projects and experiences and the struggles and successes that surround them.">
+
+<!-- For IE -->
+<link rel="shortcut icon" href="/images/favicon/favicon.ico" type="image/x-icon">
+
+<!-- For Everything else... -->
+<link rel="icon" href="/images/favicon/favicon.ico" type="image/x-icon">
+
+<!-- Bootstrap core CSS -->
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- PACE.JS -->
+<script src="/js/lib/pace.min.js"></script>
+
+<!-- Font-Awesome -->
+<link href="/css/lib/font-awesome.min.css" rel="stylesheet">
+<!-- Pictonic -->
+<link href="/css/lib/pictonic.min.css" rel="stylesheet">
+
+<!-- STYLE CSS -->
+<link href="/css/styles.css" rel="stylesheet">
+
+<!-- Color Scheme CSS -->
+<link href="/css/martin.css" rel="stylesheet" id="clscheme">
+
+
+<title>Martin Gingras - ASM Bitstream Converter</title>
+
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <script src="js/respond.min.js"></script>
+<![endif]-->
+<body data-spy="scroll" data-target="#navbar">
+  <div id="lazyload"></div>
+  <!--BEGIN Navbar -->
+<nav id="navbars" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="wrapper">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <img src="/images/logo.png" class="logo" alt="logo">Martin Gingras</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class=""><a href="/#home-slide">HOME</a>
+                </li>
+                <li class=""><a href="/#howto">ME</a>
+                </li>
+                <li class=""><a href="/#portfolio">PROJECTS</a>
+                </li>
+                <li class=""><a href="/#about">ABOUT</a>
+                </li>
+                <li class=""><a href="/#contact">CONTACT</a>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">STUFF <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <!-- <li><a href="/blog">Blog</a></li> -->
+                        <li><a href="/projects">Projects</a></li>
+                        <!-- <li><a href="/pictures">Pictures</a></li> -->
+                    </ul>
+                </li>
+                <!-- <li><a class="nav-spacer">&nbsp;</a> -->
+                <!-- </li> -->
+                <li><a href="http://github.com/mgingras" target="_blank"><i class="icon-github"></i></a>
+                </li>
+                <li><a href="http://twitter.com/martin_gingras" target="_blank"><i class="icon-twitter"></i></a>
+                </li>
+                <li><a href="mailto:martin@mgingras.ca?Subject=mgingras.ca"><i class="icon-envelope"></i></a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /wrapper -->
+</nav>
+<!-- END Navbar
+<!-- BEGIN Header -->
+    <section class="blog-header">
+        <!--<div class="blog-header-color"></div>-->
+        <div class="blog-header-content parallaxize" style="background:url('/images/blog-post-img.jpg') 50% 0 repeat-x fixed;">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="blog-post-header-title">
+                                <h1>ASM Bitstream Converter.</h1>
+                                <h2 class="blog-post-date"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END Header -->
+    <!-- BEGIN Post -->
+    <section class="post-wrapper">
+        <div class="container">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="authorpic">
+                            <div class="hexaout">
+                                <div class="hexapic"></div>
+                                <img class="hexapic" src='/images/me.png' alt="profpic" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Start Post -->
+                <div class="row">
+                    <div class="blog-post-article">
+                        <article>
+                          <div class="col-lg-12">
+                            <h5><em>An assembly program that emulates a transmission over IP, packing up the bits and unpacking them and displaying them as ASCII</em></h5>
+
+<p>*<em>Built using: *</em>&nbsp;<code>Pentium Assembly Language (IA-32)</code></p>
+
+<p>Program that takes a bitstream, packages it up and simulates transmitting it over IP then unpacks it and interprets the message.</p>
+
+<!-- abridge -->
+
+<p>To make the binary enter &quot;<code>make</code>&quot; in your terminal window from within the cloned repository.</p>
+
+<p>To run the program and enter your own input enter: &quot;<code>./a3</code>&quot;</p>
+
+<p>To run the program with the included test files enter any of the following to run corresponding tests:</p>
+
+<ul>
+<li>&quot;<code>make test</code>&quot;</li>
+<li>&quot;<code>make test1</code>&quot;</li>
+<li>&quot;<code>make test2</code>&quot;</li>
+<li>&quot;<code>make test3</code>&quot;</li>
+</ul>
+
+<p>See the <a href="http://github.com/mgingras/ASM-sendAndRecieveSimulation">code</a> </p>
+
+                          </div>
+                        </article>
+                      </div>
+                  </div>
+                  <!-- End Post -->
+              </div>
+          </div>
+<!--           <div class='img-circle' style='border:black 2px solid;margin-left:40px;width:40px;height:40px;position:relative'>
+            <a href="#navbar" style='font-size:50px;position:absolute;left:1px;top:-22px;'><i class="icon-angle-up"></i></a>
+          </div> -->
+
+    </section>
+    <!-- END Post -->
+    <footer class="blog-footer">
+        <div class="container">
+            <div class="wrapper">
+                <div class="footer-content">
+                    <p class="author-title">MADE WITH LOVE BY <a class="hovercolor" href="javascript:;">Martin Gingras</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="/js/lib/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/lib/smoothscroll.js"></script>
+  <script src="/js/lib/jquery.superslides.min.js"></script>
+  <script src="/js/lib/jquery.sudoslider.min.js"></script>
+  <script src="/js/lib/jquery.isotope.min.js"></script>
+  <script src="/js/lib/jquery.magnific-popup.min.js"></script>
+  <script src="/js/lib/jquery.parallax.js"></script>
+  <script src="/js/lib/jquery.simple-text-rotator.min.js"></script>
+  <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+  <script src="/js/lib/gmap3.min.js"></script>
+  <script src="/js/lib/jquery.inview.min.js"></script>
+  <script src="/js/lib/jquery.mixitup.min.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
